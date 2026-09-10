@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you refer to this software in an academic or evaluative context, cite the software and preserve its authorship notice."
+title: "OncoBio-AgentFM"
+type: software
+authors:
+  - family-names: "Liyana"
+    given-names: "Chandima"
+version: 0.1.0
+date-released: 2026-09-10

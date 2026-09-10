@@ -1,0 +1,49 @@
+OncoBio-AgentFM Research Evaluation License 1.0
+SPDX-License-Identifier: LicenseRef-OncoBio-AgentFM-Research-Evaluation-1.0
+
+Copyright (c) 2026 Chandima Liyana. All rights reserved.
+
+1. DEFINITIONS
+
+"Software" means the source code, documentation, tests, configuration files, and other materials distributed with this license under the name OncoBio-AgentFM.
+
+"Evaluation" means private inspection and execution solely to assess the Software for examination, peer review, research-quality assessment, or other non-commercial evaluative purposes.
+
+2. LIMITED LICENSE GRANT
+
+Subject to this license, the copyright holder grants you a limited, non-exclusive, non-transferable, non-sublicensable license to reproduce and execute the Software only as reasonably necessary for Evaluation.
+
+3. ATTRIBUTION AND PROVENANCE
+
+All copyright, authorship, license, and provenance notices must be retained in every permitted copy. You may not represent the Software, or any substantial portion of it, as your own original work or as work authored by another person or organization.
+
+4. PROHIBITED USES
+
+Except with prior written permission from the copyright holder, you may not:
+
+(a) modify, adapt, translate, or create derivative works from the Software;
+(b) redistribute, publish, sublicense, sell, rent, lease, or otherwise provide the Software or substantial portions of it to another party;
+(c) incorporate the Software or substantial portions of it into another research project, software product, service, dataset, benchmark, model, training corpus, or commercial offering;
+(d) use the Software to provide clinical care, medical advice, diagnosis, prognosis, treatment selection, or any patient-specific decision support;
+(e) remove, obscure, or alter authorship, copyright, license, or provenance notices; or
+(f) use the name "OncoBio-AgentFM" in a manner that implies authorship, sponsorship, endorsement, or affiliation without written permission.
+
+5. NO PATENT OR TRADEMARK GRANT
+
+No patent, trademark, service-mark, trade-name, or other rights are granted except the limited copyright permission expressly stated in Section 2.
+
+6. TERMINATION
+
+Any breach of this license automatically terminates the permissions granted under Section 2. Upon termination, you must cease use and delete copies made under this license, except where retention is required by law or institutional recordkeeping obligations.
+
+7. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, CLINICAL VALIDITY, OR SAFETY.
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, OR OTHER LIABILITY ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+9. RESERVATION OF RIGHTS
+
+All rights not expressly granted by this license are reserved by the copyright holder.

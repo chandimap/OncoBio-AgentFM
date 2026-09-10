@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oncobio-agentfm"
+version = "0.1.0"
+description = "Research software for reproducible, clinically constrained oncology AI."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+authors = [{ name = "Chandima Liyana" }]
+license = "LicenseRef-OncoBio-AgentFM-Research-Evaluation-1.0"
+license-files = ["LICENSE", "NOTICE"]
+dependencies = [
+  "monai==1.6.0",
+  "numpy==2.5.3",
+  "torch==2.14.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==9.1.1",
+  "ruff==0.16.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-config --strict-markers"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "RUF", "S", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["S101"]
