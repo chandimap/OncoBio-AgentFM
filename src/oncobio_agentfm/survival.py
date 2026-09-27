@@ -34,7 +34,7 @@ def efron_negative_partial_log_likelihood(
     *,
     reduction: Literal["mean", "sum"] = "mean",
 ) -> Tensor:
-    """Compute the Cox negative partial log-likelihood using Efron's tie correction."""
+    """Computing the Cox negative partial log-likelihood using Efron's tie correction."""
 
     log_risk = log_risk.squeeze(-1) if log_risk.ndim == 2 and log_risk.shape[1] == 1 else log_risk
     if log_risk.ndim != 1 or durations.ndim != 1 or events.ndim != 1:
@@ -74,11 +74,14 @@ def efron_negative_partial_log_likelihood(
         stabilizer = risk_scores.max()
         risk_sum = torch.exp(risk_scores - stabilizer).sum()
         tied_sum = torch.exp(tied_scores - stabilizer).sum()
-        fractions = torch.arange(
-            tied_count,
-            dtype=log_risk.dtype,
-            device=log_risk.device,
-        ) / tied_count
+        fractions = (
+            torch.arange(
+                tied_count,
+                dtype=log_risk.dtype,
+                device=log_risk.device,
+            )
+            / tied_count
+        )
         denominators = risk_sum - fractions * tied_sum
         tiny = torch.finfo(log_risk.dtype).tiny
         log_denominators = stabilizer + torch.log(torch.clamp(denominators, min=tiny))

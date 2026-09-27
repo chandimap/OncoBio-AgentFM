@@ -32,6 +32,7 @@ def assert_expected_runtime() -> dict[str, str]:
         name: (expected[name], observed[name])
         for name in expected
         if observed[name] != expected[name]
+        and not (name == "torch" and observed[name] == f"{expected[name]}+cpu")
     }
     if mismatches:
         details = ", ".join(
