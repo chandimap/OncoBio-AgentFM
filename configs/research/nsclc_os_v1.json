@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.2",
+  "protocol_id": "nsclc-os-v1",
+  "endpoint": "all_cause_death",
+  "population": "Adults with source-confirmed NSCLC in the surgery-referred source cohort, alive and untreated at a documented pretreatment assessment, with eligible CT and adjudicated overall-survival follow-up. Do not generalize this surgery-selected dataset to all surgical candidates or all NSCLC.",
+  "primary_index": "earliest_qualifying_pretreatment_assessment_end_of_day",
+  "secondary_index": "surgery_plus_fixed_days",
+  "landmark_days": 30,
+  "primary_horizon_days": 730,
+  "secondary_horizons_days": [
+    365,
+    1095
+  ],
+  "primary_metric": "uno_ipcw_concordance_at_730_days",
+  "split_seed": "oncobio-agentfm-v1",
+  "split_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "minimum_training_censoring_survival": 0.1,
+  "minimum_evaluation_at_risk": 10,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261014,
+  "chronology_policy": {
+    "frozen_imaging": "unique_original_roles_and_same_selected_evidence_at_landmark",
+    "administrative_cutoff": "one_reviewed_policy_reference_on_verified_patient_axes",
+    "source_consistency": "no_documented_cancer_treatment_or_surgery_after_death"
+  },
+  "estimands": {
+    "primary": "P(T - t0 > u | T > t0, X observable at t0, primary eligibility), under observed care; t0 is the documented pretreatment assessment. Primary model contrast is the paired held-out difference in Uno IPCW concordance truncated at 730 days: eligible clinical + CT versus eligible clinical.",
+    "secondary": "P(T - L > u | T > L, eligible follow-up through L, secondary eligibility, baseline clinical and CT evidence, molecular evidence known by L); L = first-treatment surgery date + 30 days. Compare clinical + CT + molecular with clinical + CT on the same landmark survivors. This is a different conditional population and time origin."
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "setting": "pretreatment",
+      "contrast": "Primary directional research hypothesis: clinical + CT improves held-out Uno concordance at 730 days over the same eligible clinical baseline; report the paired effect and 95% confidence interval, including null or negative effects. No clinically meaningful improvement threshold is claimed."
+    },
+    {
+      "id": "H2",
+      "setting": "pretreatment",
+      "contrast": "Exploratory: eligible PET/CT adds prognostic information over clinical + CT on exactly the same PET-available patients; report coverage and selection differences separately."
+    },
+    {
+      "id": "H3",
+      "setting": "pretreatment",
+      "contrast": "Exploratory: deterministic model-input ablations hide PET/CT, or both CT and PET/CT, while retaining clinical evidence after source eligibility is frozen. Compare paired concordance and Brier changes on the same patients; the PET-only mask uses CT+PET-available patients. Report withheld predictions. Imposed masking is distinct from naturally missing evidence; no missing-at-random assumption is asserted."
+    },
+    {
+      "id": "H4",
+      "setting": "postoperative_day_30",
+      "contrast": "Exploratory: timed resection molecular evidence adds prognostic information over clinical + CT among the same eligible day-30 landmark survivors with molecular availability. Untimed molecular data support association analyses only."
+    }
+  ],
+  "evaluation_rules": [
+    "Reuse the existing deterministic 70/15/15 patient split with the fixed seed; keep all images, lesions, molecular assays and landmarks of each patient in the same partition. Do not search split seeds for desirable events or performance.",
+    "Train-only fitting, imputation, feature selection, scaling, harmonization, baseline-hazard estimation and censoring-distribution estimation. Validation-only tuning and checkpoint selection. Test used once after freezing choices.",
+    "H1 uses the same primary-eligible patients, outcomes and partitions in both arms. H2 and H4 use paired eligible subsets in both arms. Never compare performance across different cohorts as an added-modality effect. Both arms use the same modality-eligible training, validation and test patients, with censoring estimated from that comparison training cohort. Do not select the intersection of successfully scored test patients after prediction failures; disclose withheld predictions and withhold a comparison whose declared population cannot be scored.",
+    "Retain the fixed split, 730-day primary horizon, G >= 0.10 and minimum at-risk count 10. Report separate metric-specific outcome support, NOT_ESTIMABLE for undefined denominators, WITHHELD_BY_PROTOCOL for stability-floor failures and NOT_ASSESSED for missing calibration grouping inputs. Passing gates is OUTCOME_PREREQUISITES_MET only: prediction outputs, adequate precision, power and clinical validity are not established. Do not replace unsupported test populations, horizons, metrics or tuning rules after examining outcomes.",
+    "Primary: Uno IPCW concordance truncated at 730 days, larger means better. Secondary: Harrell concordance, cumulative/dynamic AUC, IPCW Brier score at 365/730/1095 days, integrated Brier score from day 1 through day 730 on a fixed daily grid, and censoring-aware calibration at supported horizons. Brier scores require survival probabilities, not raw Cox log-risk. Calibration uses fixed training-risk thirds, frozen boundaries and Kaplan-Meier observed survival at each supported horizon; sparse or tied groups are explicitly withheld. Uno event contributions require observed event time strictly below tau=730; equal-duration outcome pairs are not ordered, and risk ties receive half credit. AUC cases include deaths on the horizon and controls require follow-up beyond it. Brier/IBS do not require a death on each early grid day; early-censored outcomes remain unknown. IBS requires the entire day-1-to-730 grid without adaptive cropping. Calibration needs frozen training-risk tertiles (inclusive linear quantiles; cutpoint ties go to the upper group) and per-group support, including the unchanged at-risk floor of 10; a pooled count does not certify calibration.",
+    "Use paired patient bootstrap with 2000 resamples, seed 20261014 and percentile 95% intervals with linear quantile interpolation for the held-out model difference, freezing fitted models and the training censoring estimator. Report undefined replicates and withhold an interval if more than 5% are undefined. This describes conditional test-sample uncertainty, not training uncertainty or full population uncertainty.",
+    "Prespecification is repository versioning, not external preregistration. All hypotheses except H1 are exploratory; no unadjusted family of confirmatory significance claims is permitted. Report effects, uncertainty, events, censoring, coverage and exclusions rather than rank by p-value.",
+    "Withheld or unsupported predictions count in coverage. Publish no patient-level records; real cohort flow and metrics remain local unless an appropriately reviewed aggregate is deliberately released."
+  ],
+  "claim_limits": [
+    "Prediction is prognosis under observed care, not a treatment recommendation or an estimate of a treatment effect.",
+    "A predictive increment, coefficient, molecular association or agent explanation does not identify a causal effect or biological mechanism.",
+    "No screening, diagnosis, deployment, therapeutic-benefit, general-NSCLC, external-validation or prospective-validation claim.",
+    "Dataset inclusion after resection and molecular availability can introduce selection; landmarking changes the target population and does not remove all selection or confounding.",
+    "Agentic evidence integration obeys the same input whitelist and timing rules; outcome-bearing retrieval, postoperative facts at t0 and synthesized missing facts are prohibited.",
+    "This protocol and its synthetic checks establish validity constraints; they do not establish real-data eligibility, model performance, calibration or sufficient sample size.",
+    "The full release has 211 subjects and 63 recorded deaths before adjudication. A nominal 15% evaluation allocation gives about 32 subjects and 9 recorded deaths over all follow-up; eligible 730-day and modality-specific event support is unestablished. No precision-based sample-size adequacy or confirmatory superiority claim is supported. H1 remains the prespecified primary estimation target; numerically computable results would remain exploratory with precision unestablished."
+  ],
+  "revision": "2026-10-15",
+  "feasibility_policy": {
+    "scope": "outcome_prerequisites_only",
+    "precision_status": "NOT_ESTABLISHED",
+    "ibs_grid_start_day": 1,
+    "ibs_grid_stop_day": 730,
+    "ibs_grid_step_days": 1,
+    "calibration_groups": 3,
+    "calibration_cutpoints": "training_only_inclusive_linear_tertiles",
+    "calibration_stability": "existing_at_risk_floor_applied_per_group",
+    "comparison_cohorts": "same_modality_eligible_patients_in_both_arms_and_all_splits"
+  }
+}
