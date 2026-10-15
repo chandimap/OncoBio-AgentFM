@@ -1,0 +1,120 @@
+{
+  "blockers": [
+    "No verified pretreatment assessment and diagnosis-result availability chronology.",
+    "CT/PET acquisition dates are not verified result-availability dates.",
+    "Pathological TNM cannot supply pretreatment clinical stage; edition is not declared.",
+    "Age at histological diagnosis is not automatically age at the prediction date.",
+    "No supplied ECOG field; represent absence explicitly, never synthesize a score.",
+    "Molecular result availability and patient-level surgery linkage require adjudication.",
+    "Shifted image, treatment and follow-up dates need a verified common patient time axis.",
+    "Time to Death (days) cannot be reused without a verified original time origin.",
+    "No source-adjudicated administrative-cutoff policy on verified patient axes."
+  ],
+  "columns": [
+    "Case ID",
+    "Patient affiliation",
+    "Age at Histological Diagnosis",
+    "Weight (lbs)",
+    "Gender",
+    "Ethnicity",
+    "Smoking status",
+    "Pack Years",
+    "Quit Smoking Year",
+    "%GG",
+    "Tumor Location (choice=RUL)",
+    "Tumor Location (choice=RML)",
+    "Tumor Location (choice=RLL)",
+    "Tumor Location (choice=LUL)",
+    "Tumor Location (choice=LLL)",
+    "Tumor Location (choice=L Lingula)",
+    "Tumor Location (choice=Unknown)",
+    "Histology ",
+    "Pathological T stage",
+    "Pathological N stage",
+    "Pathological M stage",
+    "Histopathological Grade",
+    "Lymphovascular invasion",
+    "Pleural invasion (elastic, visceral, or parietal)",
+    "EGFR mutation status",
+    "KRAS mutation status",
+    "ALK translocation status",
+    "Adjuvant Treatment",
+    "Chemotherapy",
+    "Radiation",
+    "Recurrence",
+    "Recurrence Location",
+    "Date of Recurrence",
+    "Date of Last Known Alive",
+    "Survival Status",
+    "Date of Death",
+    "Time to Death (days)",
+    "CT Date",
+    "Days between CT and surgery",
+    "PET Date"
+  ],
+  "evidence_type": "source_schema_inspection_only",
+  "primary_prediction_readiness": "BLOCKED_PENDING_SOURCE_ADJUDICATION",
+  "raw_pathological_stage_vocabulary": {
+    "Pathological M stage": [
+      "M0",
+      "M1a",
+      "M1b",
+      "Not Collected"
+    ],
+    "Pathological N stage": [
+      "N0",
+      "N1",
+      "N2",
+      "Not Collected"
+    ],
+    "Pathological T stage": [
+      "Not Collected",
+      "T1a",
+      "T1b",
+      "T2a",
+      "T2b",
+      "T3",
+      "T4",
+      "Tis"
+    ]
+  },
+  "raw_source_budget": {
+    "fixed_hash_partition_counts": {
+      "test": {
+        "recorded_alive": 26,
+        "recorded_dead": 8,
+        "subjects": 34,
+        "unrecognized_status": 0
+      },
+      "train": {
+        "recorded_alive": 100,
+        "recorded_dead": 45,
+        "subjects": 145,
+        "unrecognized_status": 0
+      },
+      "validation": {
+        "recorded_alive": 22,
+        "recorded_dead": 10,
+        "subjects": 32,
+        "unrecognized_status": 0
+      }
+    },
+    "nominal_15_percent_recorded_deaths": 9.45,
+    "nominal_15_percent_subjects": 31.65,
+    "precision_status": "NOT_ESTABLISHED",
+    "recorded_alive": 148,
+    "recorded_dead": 63,
+    "scope": "Full-release label counts only; not eligible cohort, landmark survivors or 730-day events. Do not alter split, horizon or population in response.",
+    "split_seed": "oncobio-agentfm-v1",
+    "subjects": 211,
+    "unrecognized_status": 0
+  },
+  "real_data_temporal_eligibility": "NOT_ESTABLISHED",
+  "rows": 211,
+  "schema_version": "1.2",
+  "scope": "Schema inspection cannot verify dates, source meanings or endpoint consistency. The reference URL identifies the source family, not authenticated provenance of arbitrary local bytes. Header changes require renewed source review.",
+  "secondary_prediction_readiness": "BLOCKED_PENDING_SOURCE_ADJUDICATION",
+  "source_bytes": 66643,
+  "source_reference": "https://www.cancerimagingarchive.net/wp-content/uploads/NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv",
+  "source_sha256": "0a1f7cdf02cef58450db17f116a3fb0ecfd4d737ca6843bb1939dbe421071476"
+}

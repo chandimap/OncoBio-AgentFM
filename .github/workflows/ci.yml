@@ -52,5 +52,22 @@ jobs:
       - name: Check source formatting
         run: ruff format --check .
 
+      - name: Compile source and tests
+        run: python -m compileall -q src tests
+
       - name: Test
         run: python -m pytest
+
+      - name: Verify reviewed temporal protocol evidence
+        run: python -m oncobio_agentfm.protocol_validation --check-report docs/evidence/temporal_validation.json
+
+      - name: Record synthetic temporal validation
+        run: python -m oncobio_agentfm.protocol_validation --output outputs/protocol-ci/temporal-validation.json
+
+      - name: Upload synthetic protocol evidence
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: nsclc-protocol-synthetic-${{ matrix.os }}
+          path: outputs/protocol-ci/temporal-validation.json
+          if-no-files-found: error
+          retention-days: 30

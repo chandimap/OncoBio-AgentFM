@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from datetime import date, timedelta
+from pathlib import Path
 
 import pytest
 
@@ -12,8 +13,16 @@ from oncobio_agentfm.clinical import (
     StageGroup,
 )
 from oncobio_agentfm.contracts import EvidenceRecord, MissingnessReason, SurvivalRecord
+from oncobio_agentfm.research_protocol import load_research_protocol
 
 INDEX_DATE = date(2025, 1, 1)
+
+
+@pytest.fixture
+def protocol():
+    return load_research_protocol(
+        Path(__file__).resolve().parents[1] / "configs/research/nsclc_os_v1.json"
+    )
 
 
 @pytest.fixture

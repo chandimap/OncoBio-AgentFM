@@ -1,0 +1,7 @@
+include CITATION.cff
+include configs/research/nsclc_os_v1.json
+include docs/research_protocol.md
+include docs/evidence/README.md
+include docs/evidence/source_schema_audit.json
+include docs/evidence/temporal_validation.json
+recursive-include tests *.py

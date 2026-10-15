@@ -1,0 +1,3323 @@
+{
+  "checks": [
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "valid_timed_evidence",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "valid_timed_evidence",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "ct_result_available_after_index",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "ct_result_available_after_index",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "nonclinical_stage",
+      "observed_rejection": "nonclinical_stage",
+      "passed": true,
+      "probe": "pathological_stage_at_baseline",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "nonclinical_stage",
+      "observed_rejection": "nonclinical_stage",
+      "passed": true,
+      "probe": "pathological_stage_at_baseline",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "unsupported_or_unknown_stage_edition",
+      "observed_rejection": "unsupported_or_unknown_stage_edition",
+      "passed": true,
+      "probe": "historical_stage_not_relabelled",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "unsupported_or_unknown_stage_edition",
+      "observed_rejection": "unsupported_or_unknown_stage_edition",
+      "passed": true,
+      "probe": "historical_stage_not_relabelled",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "unsupported_or_unknown_stage_edition",
+      "observed_rejection": "unsupported_or_unknown_stage_edition",
+      "passed": true,
+      "probe": "unknown_stage_edition",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "unsupported_or_unknown_stage_edition",
+      "observed_rejection": "unsupported_or_unknown_stage_edition",
+      "passed": true,
+      "probe": "unknown_stage_edition",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "forbidden_predictor_role",
+      "observed_rejection": "forbidden_predictor_role",
+      "passed": true,
+      "probe": "resection_molecular_forbidden_at_pretreatment",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "resection_molecular_forbidden_at_pretreatment",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "molecular_result_after_fixed_landmark",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "molecular_result_after_fixed_landmark",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "death_before_landmark_not_immortal_time",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "no_positive_follow_up_from_prediction_time",
+      "observed_rejection": "no_positive_follow_up_from_prediction_time",
+      "passed": true,
+      "probe": "death_before_landmark_not_immortal_time",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "calendar_alignment_unverified",
+      "observed_rejection": "calendar_alignment_unverified",
+      "passed": true,
+      "probe": "unverified_shifted_calendar",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "calendar_alignment_unverified",
+      "observed_rejection": "calendar_alignment_unverified",
+      "passed": true,
+      "probe": "unverified_shifted_calendar",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "outcome_calendar_alignment_mismatch",
+      "observed_rejection": "outcome_calendar_alignment_mismatch",
+      "passed": true,
+      "probe": "follow_up_from_different_calendar_axis",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "outcome_calendar_alignment_mismatch",
+      "observed_rejection": "outcome_calendar_alignment_mismatch",
+      "passed": true,
+      "probe": "follow_up_from_different_calendar_axis",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "clinical_timing_unverified",
+      "observed_rejection": "clinical_timing_unverified",
+      "passed": true,
+      "probe": "unreviewed_clinical_timing",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "clinical_timing_unverified",
+      "observed_rejection": "clinical_timing_unverified",
+      "passed": true,
+      "probe": "unreviewed_clinical_timing",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "age_not_referenced_to_index",
+      "observed_rejection": "age_not_referenced_to_index",
+      "passed": true,
+      "probe": "age_from_another_event",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "age_not_referenced_to_index",
+      "observed_rejection": "age_not_referenced_to_index",
+      "passed": true,
+      "probe": "age_from_another_event",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "treatment_before_or_on_index",
+      "observed_rejection": "treatment_before_or_on_index",
+      "passed": true,
+      "probe": "same_day_treatment",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "treatment_before_or_on_index",
+      "observed_rejection": "treatment_before_or_on_index",
+      "passed": true,
+      "probe": "same_day_treatment",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "research_only_assay_not_clinical_result",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "feature_clinical_availability_unverified",
+      "observed_rejection": "feature_clinical_availability_unverified",
+      "passed": true,
+      "probe": "research_only_assay_not_clinical_result",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "death_on_landmark_day",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "no_positive_follow_up_from_prediction_time",
+      "observed_rejection": "no_positive_follow_up_from_prediction_time",
+      "passed": true,
+      "probe": "death_on_landmark_day",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "last_known_alive_before_landmark",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "no_positive_follow_up_from_prediction_time",
+      "observed_rejection": "no_positive_follow_up_from_prediction_time",
+      "passed": true,
+      "probe": "last_known_alive_before_landmark",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "forbidden_predictor_role",
+      "observed_rejection": "forbidden_predictor_role",
+      "passed": true,
+      "probe": "outcome_predictor_rejected_despite_early_date",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "forbidden_predictor_role",
+      "observed_rejection": "forbidden_predictor_role",
+      "passed": true,
+      "probe": "outcome_predictor_rejected_despite_early_date",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_ct_acquired_after_assessment",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_ct_acquired_after_assessment",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_ct_access_after_assessment",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_ct_access_after_assessment",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_pet_ct_acquired_after_assessment",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_pet_ct_acquired_after_assessment",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_pet_ct_access_after_assessment",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "observed_rejection": "post_index_evidence",
+      "passed": true,
+      "probe": "frozen_pet_ct_access_after_assessment",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "changed_frozen_baseline_ct",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "baseline_imaging_not_frozen_across_settings",
+      "observed_rejection": "baseline_imaging_not_frozen_across_settings",
+      "passed": true,
+      "probe": "changed_frozen_baseline_ct",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "changed_frozen_baseline_pet_ct",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "baseline_imaging_not_frozen_across_settings",
+      "observed_rejection": "baseline_imaging_not_frozen_across_settings",
+      "passed": true,
+      "probe": "changed_frozen_baseline_pet_ct",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "untreated_status_not_verified_at_index",
+      "observed_rejection": "untreated_status_not_verified_at_index",
+      "passed": true,
+      "probe": "stale_untreated_status",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "untreated_status_not_verified_at_index",
+      "observed_rejection": "untreated_status_not_verified_at_index",
+      "passed": true,
+      "probe": "stale_untreated_status",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "first_treatment_after_documented_surgery",
+      "observed_rejection": "first_treatment_after_documented_surgery",
+      "passed": true,
+      "probe": "first_treatment_after_surgery",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "first_treatment_after_documented_surgery",
+      "observed_rejection": "first_treatment_after_documented_surgery",
+      "passed": true,
+      "probe": "first_treatment_after_surgery",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "modality_missingness_undeclared",
+      "observed_rejection": "modality_missingness_undeclared",
+      "passed": true,
+      "probe": "original_ct_undeclared",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "observed_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "passed": true,
+      "probe": "original_ct_undeclared",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "duplicate_feature_role",
+      "observed_rejection": "duplicate_feature_role",
+      "passed": true,
+      "probe": "original_ct_duplicate",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "observed_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "passed": true,
+      "probe": "original_ct_duplicate",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "modality_missingness_undeclared",
+      "observed_rejection": "modality_missingness_undeclared",
+      "passed": true,
+      "probe": "original_pet_ct_undeclared",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "observed_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "passed": true,
+      "probe": "original_pet_ct_undeclared",
+      "setting": "postoperative_day_30"
+    },
+    {
+      "expected_rejection": "duplicate_feature_role",
+      "observed_rejection": "duplicate_feature_role",
+      "passed": true,
+      "probe": "original_pet_ct_duplicate",
+      "setting": "pretreatment"
+    },
+    {
+      "expected_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "observed_rejection": "frozen_baseline_imaging_not_uniquely_declared",
+      "passed": true,
+      "probe": "original_pet_ct_duplicate",
+      "setting": "postoperative_day_30"
+    }
+  ],
+  "cohort_audits": [
+    {
+      "clinical_validity": "NOT_ESTABLISHED_BY_SOFTWARE_CHECKS",
+      "comparison_feasibility": {
+        "clinical_ct": {
+          "comparison_policy": "same eligible patients in both arms across training, validation and test",
+          "hypotheses": [
+            "H1",
+            "H3_hide_all_imaging"
+          ],
+          "metric_support": {
+            "test": [
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "comparable_pairs": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "distinct_comparable_event_patients": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "uno_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "comparable_pairs": 0,
+                  "distinct_comparable_event_patients": 0
+                },
+                "fatal_reasons": [
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": null,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "harrell_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "grid": {
+                    "G_and_risk_checked_by_monotone_tail_bounds": true,
+                    "first_day_without_known_contributions": 19,
+                    "points": 730,
+                    "start_day": 1,
+                    "step_days": 1,
+                    "stop_day": 730
+                  },
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "integrated_brier_grid_has_unsupported_day"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "integrated_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ASSESSED"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ASSESSED"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 1,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1
+                },
+                "fatal_reasons": [
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              }
+            ],
+            "validation": [
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "comparable_pairs": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "distinct_comparable_event_patients": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "uno_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "comparable_pairs": 0,
+                  "distinct_comparable_event_patients": 0
+                },
+                "fatal_reasons": [
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": null,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "harrell_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_controls_beyond_horizon"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_controls_beyond_horizon"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1
+                },
+                "fatal_reasons": [
+                  "auc_has_no_controls_beyond_horizon",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "WITHHELD_BY_PROTOCOL"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "WITHHELD_BY_PROTOCOL"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1
+                },
+                "fatal_reasons": [
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "grid": {
+                    "G_and_risk_checked_by_monotone_tail_bounds": true,
+                    "first_day_without_known_contributions": null,
+                    "points": 730,
+                    "start_day": 1,
+                    "step_days": 1,
+                    "stop_day": 730
+                  },
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "integrated_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "WITHHELD_BY_PROTOCOL"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ASSESSED"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ASSESSED"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 1,
+                  "deaths_by_horizon": 1,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 1
+                },
+                "fatal_reasons": [
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              }
+            ]
+          },
+          "model_evaluation": "NOT_RUN",
+          "partition_counts": {
+            "test": {
+              "censored": 1,
+              "deaths": 0,
+              "patients": 1
+            },
+            "train": {
+              "censored": 0,
+              "deaths": 6,
+              "patients": 6
+            },
+            "validation": {
+              "censored": 0,
+              "deaths": 1,
+              "patients": 1
+            }
+          },
+          "precision_status": "NOT_ESTABLISHED"
+        },
+        "pet_available": {
+          "comparison_policy": "same eligible patients in both arms across training, validation and test",
+          "hypotheses": [
+            "H2",
+            "H3_hide_pet"
+          ],
+          "metric_support": {
+            "test": [
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "comparable_pairs": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "distinct_comparable_event_patients": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "uno_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "comparable_pairs": 0,
+                  "distinct_comparable_event_patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox"
+                ],
+                "horizon_days": null,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "harrell_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "grid": {
+                    "G_and_risk_checked_by_monotone_tail_bounds": true,
+                    "first_day_without_known_contributions": 1,
+                    "points": 730,
+                    "start_day": 1,
+                    "step_days": 1,
+                    "stop_day": 730
+                  },
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "integrated_brier_grid_has_unsupported_day",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "integrated_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              }
+            ],
+            "validation": [
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "comparable_pairs": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "distinct_comparable_event_patients": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "uno_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "comparable_pairs": 0,
+                  "distinct_comparable_event_patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox"
+                ],
+                "horizon_days": null,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "harrell_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "grid": {
+                    "G_and_risk_checked_by_monotone_tail_bounds": true,
+                    "first_day_without_known_contributions": 1,
+                    "points": 730,
+                    "start_day": 1,
+                    "step_days": 1,
+                    "stop_day": 730
+                  },
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "integrated_brier_grid_has_unsupported_day",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "integrated_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_has_fewer_than_two_patients",
+                  "training_has_no_deaths_for_prespecified_cox",
+                  "training_support_empty"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              }
+            ]
+          },
+          "model_evaluation": "NOT_RUN",
+          "partition_counts": {
+            "test": {
+              "censored": 0,
+              "deaths": 0,
+              "patients": 0
+            },
+            "train": {
+              "censored": 0,
+              "deaths": 0,
+              "patients": 0
+            },
+            "validation": {
+              "censored": 0,
+              "deaths": 0,
+              "patients": 0
+            }
+          },
+          "precision_status": "NOT_ESTABLISHED"
+        }
+      },
+      "endpoint_eligible": 8,
+      "evidence_type": "synthetic_software_validation",
+      "horizon_support": {
+        "test": [
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 1,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 1,
+            "horizon_days": 365,
+            "reasons": [
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 6
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 1,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 1,
+            "horizon_days": 730,
+            "reasons": [
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 6
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 1,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 1,
+            "horizon_days": 1095,
+            "reasons": [
+              "training_follow_up_support_exhausted",
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": null,
+            "training_patients": 6
+          }
+        ],
+        "validation": [
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 1,
+            "evaluation_deaths_by_horizon": 1,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 1,
+            "horizon_days": 365,
+            "reasons": [
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 6
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 1,
+            "evaluation_deaths_by_horizon": 1,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 1,
+            "horizon_days": 730,
+            "reasons": [
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 6
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 1,
+            "evaluation_deaths_by_horizon": 1,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 1,
+            "horizon_days": 1095,
+            "reasons": [
+              "training_follow_up_support_exhausted",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": null,
+            "training_patients": 6
+          }
+        ]
+      },
+      "horizon_support_scope": "retained conservative screen; individual metrics use comparison_feasibility",
+      "input_patients": 29,
+      "outcome_rejections": {
+        "outcome_calendar_alignment_mismatch": 1
+      },
+      "partition_counts": {
+        "test": {
+          "at_risk_at_730_days": 0,
+          "censored": 1,
+          "deaths": 0,
+          "patients": 1
+        },
+        "train": {
+          "at_risk_at_730_days": 5,
+          "censored": 0,
+          "deaths": 6,
+          "patients": 6
+        },
+        "validation": {
+          "at_risk_at_730_days": 0,
+          "censored": 0,
+          "deaths": 1,
+          "patients": 1
+        }
+      },
+      "performance_evaluation": "NOT_RUN",
+      "precision_status": "NOT_ESTABLISHED",
+      "predictor_eligible": 9,
+      "predictor_rejections": {
+        "age_not_referenced_to_index": 1,
+        "calendar_alignment_unverified": 1,
+        "clinical_timing_unverified": 1,
+        "duplicate_feature_role": 2,
+        "first_treatment_after_documented_surgery": 1,
+        "forbidden_predictor_role": 2,
+        "modality_missingness_undeclared": 2,
+        "nonclinical_stage": 1,
+        "post_index_evidence": 5,
+        "treatment_before_or_on_index": 1,
+        "unsupported_or_unknown_stage_edition": 2,
+        "untreated_status_not_verified_at_index": 1
+      },
+      "protocol_id": "nsclc-os-v1",
+      "protocol_revision": "2026-10-15",
+      "protocol_sha256": "08095911a18f7fb4833f079d0c80f2a5acc03c8fdf8671ec37206674439636ba",
+      "reason_policy": "first_failure_per_gate; malformed source records must be audited separately",
+      "schema_version": "1.2",
+      "setting": "pretreatment"
+    },
+    {
+      "clinical_validity": "NOT_ESTABLISHED_BY_SOFTWARE_CHECKS",
+      "comparison_feasibility": {
+        "molecular_available": {
+          "comparison_policy": "same eligible patients in both arms across training, validation and test",
+          "hypotheses": [
+            "H4"
+          ],
+          "metric_support": {
+            "test": [
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "comparable_pairs": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "distinct_comparable_event_patients": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "uno_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "comparable_pairs": 0,
+                  "distinct_comparable_event_patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": null,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "harrell_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "grid": {
+                    "G_and_risk_checked_by_monotone_tail_bounds": true,
+                    "first_day_without_known_contributions": 1,
+                    "points": 730,
+                    "start_day": 1,
+                    "step_days": 1,
+                    "stop_day": 730
+                  },
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "integrated_brier_grid_has_unsupported_day"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "integrated_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              }
+            ],
+            "validation": [
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "comparable_pairs": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "distinct_comparable_event_patients": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "uno_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "comparable_pairs": 0,
+                  "distinct_comparable_event_patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "no_comparable_event_pairs"
+                ],
+                "horizon_days": null,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "harrell_concordance",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "auc_has_no_cases_by_horizon",
+                  "auc_has_no_controls_beyond_horizon",
+                  "evaluation_empty",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "cumulative_dynamic_auc",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "ipcw_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "grid": {
+                    "G_and_risk_checked_by_monotone_tail_bounds": true,
+                    "first_day_without_known_contributions": 1,
+                    "points": 730,
+                    "start_day": 1,
+                    "step_days": 1,
+                    "stop_day": 730
+                  },
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "brier_has_no_known_outcome_contributions",
+                  "evaluation_empty",
+                  "integrated_brier_grid_has_unsupported_day"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "integrated_brier",
+                "missing_inputs": [],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty"
+                ],
+                "horizon_days": 365,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0,
+                  "training_G_at_horizon": 1.0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty"
+                ],
+                "horizon_days": 730,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              },
+              {
+                "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+                "details": {
+                  "at_risk_before_horizon": 0,
+                  "deaths_before_horizon": 0,
+                  "deaths_by_horizon": 0,
+                  "early_censorings": 0,
+                  "observed_beyond_horizon": 0,
+                  "patients": 0
+                },
+                "fatal_reasons": [
+                  "evaluation_empty",
+                  "training_follow_up_support_exhausted"
+                ],
+                "horizon_days": 1095,
+                "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+                "metric": "calibration_tertiles",
+                "missing_inputs": [
+                  "frozen_training_and_evaluation_risk_scores_for_group_support"
+                ],
+                "model_evaluation": "NOT_RUN",
+                "precision_status": "NOT_ESTABLISHED",
+                "prediction_outputs_validated": false,
+                "scope": "outcome_prerequisites_only",
+                "stability_reasons": [
+                  "evaluation_at_risk_below_threshold"
+                ],
+                "status": "NOT_ESTIMABLE"
+              }
+            ]
+          },
+          "model_evaluation": "NOT_RUN",
+          "partition_counts": {
+            "test": {
+              "censored": 0,
+              "deaths": 0,
+              "patients": 0
+            },
+            "train": {
+              "censored": 0,
+              "deaths": 2,
+              "patients": 2
+            },
+            "validation": {
+              "censored": 0,
+              "deaths": 0,
+              "patients": 0
+            }
+          },
+          "precision_status": "NOT_ESTABLISHED"
+        }
+      },
+      "endpoint_eligible": 2,
+      "evidence_type": "synthetic_software_validation",
+      "horizon_support": {
+        "test": [
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 0,
+            "horizon_days": 365,
+            "reasons": [
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 2
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 0,
+            "horizon_days": 730,
+            "reasons": [
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 2
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 0,
+            "horizon_days": 1095,
+            "reasons": [
+              "training_follow_up_support_exhausted",
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": null,
+            "training_patients": 2
+          }
+        ],
+        "validation": [
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 0,
+            "horizon_days": 365,
+            "reasons": [
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 2
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 0,
+            "horizon_days": 730,
+            "reasons": [
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": 1.0,
+            "training_patients": 2
+          },
+          {
+            "evaluation_at_risk_before_horizon": 0,
+            "evaluation_deaths_before_horizon": 0,
+            "evaluation_deaths_by_horizon": 0,
+            "evaluation_early_censorings": 0,
+            "evaluation_observed_beyond_horizon": 0,
+            "evaluation_patients": 0,
+            "horizon_days": 1095,
+            "reasons": [
+              "training_follow_up_support_exhausted",
+              "evaluation_has_no_deaths_by_horizon",
+              "evaluation_has_no_deaths_before_horizon",
+              "evaluation_has_no_observed_survivors_beyond_horizon",
+              "evaluation_at_risk_below_threshold"
+            ],
+            "status": "NOT_ESTIMABLE",
+            "training_censoring_survival": null,
+            "training_patients": 2
+          }
+        ]
+      },
+      "horizon_support_scope": "retained conservative screen; individual metrics use comparison_feasibility",
+      "input_patients": 29,
+      "outcome_rejections": {
+        "no_positive_follow_up_from_prediction_time": 3,
+        "outcome_calendar_alignment_mismatch": 1
+      },
+      "partition_counts": {
+        "test": {
+          "at_risk_at_730_days": 0,
+          "censored": 0,
+          "deaths": 0,
+          "patients": 0
+        },
+        "train": {
+          "at_risk_at_730_days": 2,
+          "censored": 0,
+          "deaths": 2,
+          "patients": 2
+        },
+        "validation": {
+          "at_risk_at_730_days": 0,
+          "censored": 0,
+          "deaths": 0,
+          "patients": 0
+        }
+      },
+      "performance_evaluation": "NOT_RUN",
+      "precision_status": "NOT_ESTABLISHED",
+      "predictor_eligible": 6,
+      "predictor_rejections": {
+        "age_not_referenced_to_index": 1,
+        "baseline_imaging_not_frozen_across_settings": 2,
+        "calendar_alignment_unverified": 1,
+        "clinical_timing_unverified": 1,
+        "feature_clinical_availability_unverified": 1,
+        "first_treatment_after_documented_surgery": 1,
+        "forbidden_predictor_role": 1,
+        "frozen_baseline_imaging_not_uniquely_declared": 4,
+        "nonclinical_stage": 1,
+        "post_index_evidence": 6,
+        "treatment_before_or_on_index": 1,
+        "unsupported_or_unknown_stage_edition": 2,
+        "untreated_status_not_verified_at_index": 1
+      },
+      "protocol_id": "nsclc-os-v1",
+      "protocol_revision": "2026-10-15",
+      "protocol_sha256": "08095911a18f7fb4833f079d0c80f2a5acc03c8fdf8671ec37206674439636ba",
+      "reason_policy": "first_failure_per_gate; malformed source records must be audited separately",
+      "schema_version": "1.2",
+      "setting": "postoperative_day_30"
+    }
+  ],
+  "evidence_type": "synthetic_adversarial_validation_only",
+  "metric_feasibility_checks": [
+    {
+      "expected_status": "OUTCOME_PREREQUISITES_MET",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+        "details": {
+          "at_risk_before_horizon": 10,
+          "comparable_pairs": 10,
+          "deaths_before_horizon": 1,
+          "deaths_by_horizon": 1,
+          "distinct_comparable_event_patients": 1,
+          "early_censorings": 0,
+          "observed_beyond_horizon": 10,
+          "patients": 11,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "uno_concordance",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [],
+        "status": "OUTCOME_PREREQUISITES_MET"
+      },
+      "passed": true,
+      "probe": "one_event_is_not_precision_evidence"
+    },
+    {
+      "expected_status": "NOT_ESTIMABLE",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+        "details": {
+          "at_risk_before_horizon": 11,
+          "comparable_pairs": 0,
+          "deaths_before_horizon": 0,
+          "deaths_by_horizon": 1,
+          "distinct_comparable_event_patients": 0,
+          "early_censorings": 0,
+          "observed_beyond_horizon": 10,
+          "patients": 11,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [
+          "no_comparable_event_pairs"
+        ],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "uno_concordance",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [],
+        "status": "NOT_ESTIMABLE"
+      },
+      "passed": true,
+      "probe": "uno_excludes_event_at_tau"
+    },
+    {
+      "expected_status": "OUTCOME_PREREQUISITES_MET",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+        "details": {
+          "at_risk_before_horizon": 11,
+          "deaths_before_horizon": 0,
+          "deaths_by_horizon": 1,
+          "early_censorings": 0,
+          "observed_beyond_horizon": 10,
+          "patients": 11,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "cumulative_dynamic_auc",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [],
+        "status": "OUTCOME_PREREQUISITES_MET"
+      },
+      "passed": true,
+      "probe": "auc_includes_event_at_horizon"
+    },
+    {
+      "expected_status": "NOT_ESTIMABLE",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+        "details": {
+          "at_risk_before_horizon": 10,
+          "deaths_before_horizon": 0,
+          "deaths_by_horizon": 0,
+          "early_censorings": 0,
+          "observed_beyond_horizon": 10,
+          "patients": 10,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [
+          "auc_has_no_cases_by_horizon"
+        ],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "cumulative_dynamic_auc",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [],
+        "status": "NOT_ESTIMABLE"
+      },
+      "passed": true,
+      "probe": "auc_without_cases"
+    },
+    {
+      "expected_status": "OUTCOME_PREREQUISITES_MET",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+        "details": {
+          "at_risk_before_horizon": 10,
+          "deaths_before_horizon": 0,
+          "deaths_by_horizon": 0,
+          "early_censorings": 0,
+          "observed_beyond_horizon": 10,
+          "patients": 10,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "ipcw_brier",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [],
+        "status": "OUTCOME_PREREQUISITES_MET"
+      },
+      "passed": true,
+      "probe": "brier_without_early_deaths"
+    },
+    {
+      "expected_status": "OUTCOME_PREREQUISITES_MET",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+        "details": {
+          "at_risk_before_horizon": 10,
+          "deaths_before_horizon": 0,
+          "deaths_by_horizon": 0,
+          "early_censorings": 0,
+          "grid": {
+            "G_and_risk_checked_by_monotone_tail_bounds": true,
+            "first_day_without_known_contributions": null,
+            "points": 730,
+            "start_day": 1,
+            "step_days": 1,
+            "stop_day": 730
+          },
+          "observed_beyond_horizon": 10,
+          "patients": 10,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "integrated_brier",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [],
+        "status": "OUTCOME_PREREQUISITES_MET"
+      },
+      "passed": true,
+      "probe": "ibs_complete_grid_without_early_deaths"
+    },
+    {
+      "expected_status": "NOT_ESTIMABLE",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+        "details": {
+          "at_risk_before_horizon": 0,
+          "deaths_before_horizon": 0,
+          "deaths_by_horizon": 0,
+          "early_censorings": 12,
+          "grid": {
+            "G_and_risk_checked_by_monotone_tail_bounds": true,
+            "first_day_without_known_contributions": 100,
+            "points": 730,
+            "start_day": 1,
+            "step_days": 1,
+            "stop_day": 730
+          },
+          "observed_beyond_horizon": 0,
+          "patients": 12,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [
+          "brier_has_no_known_outcome_contributions",
+          "integrated_brier_grid_has_unsupported_day"
+        ],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "integrated_brier",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [
+          "evaluation_at_risk_below_threshold"
+        ],
+        "status": "NOT_ESTIMABLE"
+      },
+      "passed": true,
+      "probe": "ibs_cannot_crop_unsupported_tail"
+    },
+    {
+      "expected_status": "NOT_ASSESSED",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+        "details": {
+          "at_risk_before_horizon": 10,
+          "deaths_before_horizon": 1,
+          "deaths_by_horizon": 1,
+          "early_censorings": 0,
+          "observed_beyond_horizon": 10,
+          "patients": 11,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "calibration_tertiles",
+        "missing_inputs": [
+          "frozen_training_and_evaluation_risk_scores_for_group_support"
+        ],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [],
+        "status": "NOT_ASSESSED"
+      },
+      "passed": true,
+      "probe": "calibration_groups_not_assessed_from_pooled_counts"
+    },
+    {
+      "expected_status": "NOT_ESTIMABLE",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite survival probabilities, training-only baseline hazard, and the metric's complete prespecified time grid.",
+        "details": {
+          "at_risk_before_horizon": 10,
+          "deaths_before_horizon": 1,
+          "deaths_by_horizon": 1,
+          "early_censorings": 0,
+          "fixed_training_risk_groups": [
+            {
+              "at_risk_before_horizon": 10,
+              "deaths_before_horizon": 1,
+              "deaths_by_horizon": 1,
+              "early_censorings": 0,
+              "observed_beyond_horizon": 10,
+              "patients": 11
+            },
+            {
+              "at_risk_before_horizon": 0,
+              "deaths_before_horizon": 0,
+              "deaths_by_horizon": 0,
+              "early_censorings": 0,
+              "observed_beyond_horizon": 0,
+              "patients": 0
+            },
+            {
+              "at_risk_before_horizon": 0,
+              "deaths_before_horizon": 0,
+              "deaths_by_horizon": 0,
+              "early_censorings": 0,
+              "observed_beyond_horizon": 0,
+              "patients": 0
+            }
+          ],
+          "observed_beyond_horizon": 10,
+          "patients": 11,
+          "training_G_at_horizon": 1.0,
+          "training_only_cutpoints": [
+            0.3333333333333333,
+            0.6666666666666666
+          ]
+        },
+        "fatal_reasons": [
+          "calibration_group_2_empty",
+          "calibration_group_3_empty"
+        ],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "calibration_tertiles",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [
+          "calibration_group_2_at_risk_below_threshold",
+          "calibration_group_3_at_risk_below_threshold"
+        ],
+        "status": "NOT_ESTIMABLE"
+      },
+      "passed": true,
+      "probe": "calibration_empty_tertiles"
+    },
+    {
+      "expected_status": "WITHHELD_BY_PROTOCOL",
+      "observed": {
+        "additional_prediction_requirements": "Aligned finite risk predictions from both frozen fitted comparison arms.",
+        "details": {
+          "at_risk_before_horizon": 1,
+          "comparable_pairs": 1,
+          "deaths_before_horizon": 1,
+          "deaths_by_horizon": 1,
+          "distinct_comparable_event_patients": 1,
+          "early_censorings": 0,
+          "observed_beyond_horizon": 1,
+          "patients": 2,
+          "training_G_at_horizon": 1.0
+        },
+        "fatal_reasons": [],
+        "horizon_days": 730,
+        "interpretation": "Numerical support, pair counts and stability floors do not establish statistical precision or power.",
+        "metric": "uno_concordance",
+        "missing_inputs": [],
+        "model_evaluation": "NOT_RUN",
+        "precision_status": "NOT_ESTABLISHED",
+        "prediction_outputs_validated": false,
+        "scope": "outcome_prerequisites_only",
+        "stability_reasons": [
+          "evaluation_at_risk_below_threshold"
+        ],
+        "status": "WITHHELD_BY_PROTOCOL"
+      },
+      "passed": true,
+      "probe": "small_comparable_set_withheld_by_protocol"
+    }
+  ],
+  "model_performance": "NOT_EVALUATED",
+  "protocol_id": "nsclc-os-v1",
+  "protocol_revision": "2026-10-15",
+  "protocol_sha256": "08095911a18f7fb4833f079d0c80f2a5acc03c8fdf8671ec37206674439636ba",
+  "real_data_temporal_eligibility": "NOT_ESTABLISHED",
+  "schema_version": "1.2",
+  "source_integrity_checks": [
+    {
+      "expected_rejection": "administrative_cutoff_source_missing",
+      "observed_rejection": "administrative_cutoff_source_missing",
+      "passed": true,
+      "probe": "missing_cutoff_policy"
+    },
+    {
+      "expected_rejection": "cohort_administrative_cutoff_policy_mismatch",
+      "observed_rejection": "cohort_administrative_cutoff_policy_mismatch",
+      "passed": true,
+      "probe": "mixed_cutoff_policies"
+    },
+    {
+      "expected_rejection": "documented_treatment_after_death",
+      "observed_rejection": "documented_treatment_after_death",
+      "passed": true,
+      "probe": "treatment_after_death"
+    },
+    {
+      "expected_rejection": "documented_surgery_after_death",
+      "observed_rejection": "documented_surgery_after_death",
+      "passed": true,
+      "probe": "surgery_after_death"
+    },
+    {
+      "expected_rejection": null,
+      "observed_rejection": null,
+      "passed": true,
+      "probe": "same_policy_with_different_adjudicated_cutoffs"
+    }
+  ],
+  "status": "PASS"
+}
