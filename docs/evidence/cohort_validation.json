@@ -1,0 +1,161 @@
+{
+  "checks": [
+    {
+      "expected_rejection": null,
+      "name": "known_patient_overlap",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "known_all_four_overlap",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "exact_duplicate_series_does_not_add_patients",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": "imaging_study_owner_conflict",
+      "name": "study_cannot_belong_to_two_patients",
+      "observed_rejection": "imaging_study_owner_conflict",
+      "passed": true
+    },
+    {
+      "expected_rejection": "imaging_series_metadata_conflict",
+      "name": "same_series_conflicting_metadata_is_blocked",
+      "observed_rejection": "imaging_series_metadata_conflict",
+      "passed": true
+    },
+    {
+      "expected_rejection": "source_patient_identifier_invalid",
+      "name": "whitespace_identity_is_not_repaired",
+      "observed_rejection": "source_patient_identifier_invalid",
+      "passed": true
+    },
+    {
+      "expected_rejection": "source_duplicate_json_key",
+      "name": "duplicate_json_keys_are_blocked",
+      "observed_rejection": "source_duplicate_json_key",
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "NA_cells_remain_missing",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": "rna_expression_nonfinite",
+      "name": "nonfinite_expression_is_blocked",
+      "observed_rejection": "rna_expression_nonfinite",
+      "passed": true
+    },
+    {
+      "expected_rejection": "rna_duplicate_patient_column",
+      "name": "duplicate_RNA_patient_columns_are_blocked",
+      "observed_rejection": "rna_duplicate_patient_column",
+      "passed": true
+    },
+    {
+      "expected_rejection": "rna_series_mismatch",
+      "name": "wrong_GEO_series_is_blocked",
+      "observed_rejection": "rna_series_mismatch",
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "all_modalities_keep_the_patient_partition",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "subset_never_reassigns_patient_partition",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "linked_primary_preserves_existing_gate",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "linked_all_four_uses_landmark_population",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": "post_index_evidence",
+      "name": "source_presence_does_not_admit_late_CT",
+      "observed_rejection": "post_index_evidence",
+      "passed": true
+    },
+    {
+      "expected_rejection": "case_differs_from_reviewed_source",
+      "name": "reviewed_values_cannot_be_silently_changed",
+      "observed_rejection": "case_differs_from_reviewed_source",
+      "passed": true
+    },
+    {
+      "expected_rejection": "case_lineage_source_unverified",
+      "name": "unverified_document_cannot_supply_lineage",
+      "observed_rejection": "case_lineage_source_unverified",
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "public_projection_contains_no_patient_or_series_ids",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": "inventory_series_must_be_immutable",
+      "name": "mutable_series_inventory_is_rejected",
+      "observed_rejection": "inventory_series_must_be_immutable",
+      "passed": true
+    },
+    {
+      "expected_rejection": null,
+      "name": "source_coordinates_survive_mapping_order",
+      "observed_rejection": null,
+      "passed": true
+    },
+    {
+      "expected_rejection": "clinical_locator_unresolved",
+      "name": "nonexistent_clinical_locator_is_rejected",
+      "observed_rejection": "clinical_locator_unresolved",
+      "passed": true
+    },
+    {
+      "expected_rejection": "pet_ct_pairing_undeclared",
+      "name": "PET_CT_pairing_must_be_explicit",
+      "observed_rejection": "pet_ct_pairing_undeclared",
+      "passed": true
+    },
+    {
+      "expected_rejection": "paired_ct_not_available_at_index",
+      "name": "paired_CT_available_after_index_is_rejected",
+      "observed_rejection": "paired_ct_not_available_at_index",
+      "passed": true
+    },
+    {
+      "expected_rejection": "molecular_provenance_mismatch",
+      "name": "wrong_expression_column_is_rejected",
+      "observed_rejection": "molecular_provenance_mismatch",
+      "passed": true
+    }
+  ],
+  "evidence_type": "synthetic_software_validation",
+  "implementation_sha256": "6b5f2f8c7ce44feecb4c8227548cf3ccfa25d48958cc39c4209346d6053b2cc8",
+  "model_evaluation": "NOT_RUN",
+  "protocol_sha256": "08095911a18f7fb4833f079d0c80f2a5acc03c8fdf8671ec37206674439636ba",
+  "real_clinical_eligibility": "NOT_ESTABLISHED",
+  "schema_version": "1.0",
+  "status": "PASS"
+}

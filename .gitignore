@@ -33,3 +33,7 @@ checkpoints/
 *.pt
 *.pth
 *.ckpt
+
+# Local cohort manifests and source-adjudication records.
+PRIVATE_*
+*-PRIVATE-*.json

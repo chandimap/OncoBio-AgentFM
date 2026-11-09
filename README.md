@@ -2,6 +2,26 @@
 
 Research Software for Oncology AI.
 
+The [multimodal cohort audit](docs/cohort_audit.md) links locked TCIA/NBIA and GEO sources
+at patient level, reports observed modality overlap and complete-source selection differences,
+and distinguishes pooled selection from R01/AMC recruitment composition. It keeps source
+inventory separate from clinical prognostic eligibility. SeriesDate remains series metadata;
+actual acquisition/availability, PET/CT component linkage and assay provenance require review. The published
+[aggregate evidence](docs/evidence/source_availability.json) contains no patient rows or image
+identifiers. Reviewed clinical cases require source lineage before the existing temporal and
+overall-survival gates can be applied; source presence alone does not establish validity.
+
+The [endpoint-feasibility assessment](docs/cohort_feasibility.md) defines the
+supported research scope: reproducible source-cohort construction, observed
+selection differences, and evaluation of prognostic endpoint feasibility.
+The locked sources do not establish eligible patient or validated event counts
+for either prediction setting. Comparing recorded death durations with death
+dates minus a candidate surgery date—calculated from CT date plus the recorded
+CT-to-surgery interval—yields 16 disagreements among 63 recorded deaths.
+Agreement in the remaining 47 cases does not validate a surgery-based time
+origin. These findings do not establish a clinically eligible prognostic cohort.
+Unknown eligible-patient and event counts remain `null`.
+
 The [NSCLC research protocol](docs/research_protocol.md) defines all-cause survival
 prognosis at a documented pretreatment assessment and a separate exploratory day-30
 postoperative landmark. Its [versioned specification](configs/research/nsclc_os_v1.json)

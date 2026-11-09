@@ -1,5 +1,26 @@
 # Evidence scope
 
+`source_availability.json` is a real, aggregate inspection of four public source snapshots
+retrieved on 2026-11-07: TCIA clinical CSV, NBIA series metadata, GEO sample metadata and
+the processed RNA expression matrix. Exact byte hashes and source versions are recorded in
+`configs/cohort/nsclc_source_lock_v1.json`. It audits overlap, unresolved series selection,
+matrix missingness, raw vital-status labels and descriptive complete-source selection.
+Its `endpoint_feasibility` section checks clinical date syntax, recorded-status consistency
+and explicitly hypothetical CT-plus-interval surgery arithmetic. It never creates OS targets
+or promotes matching intervals to validated events. See the [scope decision](../cohort_feasibility.md).
+`source_flow.md` visualizes its source denominator. Neither artifact establishes clinical
+eligibility or valid OS events; those fields are explicitly unassessed, not zero.
+
+`cohort_validation.json` is independently recomputed synthetic software evidence:
+
+```bash
+python -m oncobio_agentfm.cohort_validation --check-report docs/evidence/cohort_validation.json
+```
+
+See [the cohort audit](../cohort_audit.md) for definitions and interpretation. CI uses
+invented sources only; it does not redownload real data or recertify a public-source snapshot.
+Private manifests, adjudication documents and patient review records remain local.
+
 `temporal_validation.json` is generated from invented cases by
 `python -m oncobio_agentfm.protocol_validation`. It includes the protocol's exact
 SHA-256 fingerprint, expected/observed rejection codes, aggregate synthetic
@@ -40,3 +61,11 @@ It does not mean every metric is estimable. `NOT_ESTIMABLE`, `WITHHELD_BY_PROTOC
 `NOT_ESTABLISHED`; prediction outputs have not been validated or scored. The protocol
 documents the revision and its justification. Calibration group support is unassessed
 without frozen training/evaluation risk inputs.
+
+`source_reproduction.json` is computed by the independent standard-library calculator in
+`tools/reproduce_source_audit.py`, using the exact locked source bytes. It checks reported
+numeric facts without importing the cohort implementation. Pooled and R01/AMC-stratified
+selection summaries are descriptive; AMC has no complete-source comparison group.
+The missing-date count is explicitly missing **SeriesDate**, not missing AcquisitionDate.
+The synthetic cohort snapshot now includes 25 probes, including citation resolution,
+immutable source inventory, coordinate stability and explicit paired-CT/RNA source checks.

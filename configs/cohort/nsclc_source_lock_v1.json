@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "sources": {
+    "clinical": {
+      "version": "TCIA-v4-clinical-2018-05-22",
+      "retrieved_on": "2026-11-07",
+      "sha256": "0a1f7cdf02cef58450db17f116a3fb0ecfd4d737ca6843bb1939dbe421071476",
+      "size_bytes": 66643
+    },
+    "imaging": {
+      "version": "NBIA-v1-getSeries-2026-11-07",
+      "retrieved_on": "2026-11-07",
+      "sha256": "9474ad45b635bf202b1fd64a866eb2fb607b2b293d06d11edcea7f91c4cf10c3",
+      "size_bytes": 1146753
+    },
+    "rna_metadata": {
+      "version": "GSE103584-family-SOFT-2026-11-07",
+      "retrieved_on": "2026-11-07",
+      "sha256": "26e514f9f57e56909f906df304adfe189f6ec5165134746c1cfafca25c911924",
+      "size_bytes": 8881
+    },
+    "rna_expression": {
+      "version": "GSE103584-processed-matrix-2026-11-07",
+      "retrieved_on": "2026-11-07",
+      "sha256": "b007ec6d52c563fb6b7470628801e36ee2db4cafc7cc1b7631cf6446333be0e1",
+      "size_bytes": 7117730
+    }
+  }
+}

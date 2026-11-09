@@ -1,0 +1,1134 @@
+{
+  "analysis_populations": {
+    "postoperative_day_30": {
+      "eligible_patients": null,
+      "status": "BLOCKED_PENDING_SOURCE_ADJUDICATION",
+      "survival_events": null
+    },
+    "pretreatment": {
+      "eligible_patients": null,
+      "status": "BLOCKED_PENDING_SOURCE_ADJUDICATION",
+      "survival_events": null
+    }
+  },
+  "availability_patterns": [
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": false,
+        "pet": false,
+        "rna": false
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": false,
+        "pet": false,
+        "rna": true
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": true,
+        "ct": false,
+        "pet": false,
+        "rna": false
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": true,
+        "ct": false,
+        "pet": false,
+        "rna": true
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": false,
+        "pet": true,
+        "rna": false
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": false,
+        "pet": true,
+        "rna": true
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": true,
+        "ct": false,
+        "pet": true,
+        "rna": false
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": true,
+        "ct": false,
+        "pet": true,
+        "rna": true
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": true,
+        "pet": false,
+        "rna": false
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": true,
+        "pet": false,
+        "rna": true
+      }
+    },
+    {
+      "patients": 10,
+      "present": {
+        "clinical": true,
+        "ct": true,
+        "pet": false,
+        "rna": false
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": true,
+        "ct": true,
+        "pet": false,
+        "rna": true
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": true,
+        "pet": true,
+        "rna": false
+      }
+    },
+    {
+      "patients": 0,
+      "present": {
+        "clinical": false,
+        "ct": true,
+        "pet": true,
+        "rna": true
+      }
+    },
+    {
+      "patients": 71,
+      "present": {
+        "clinical": true,
+        "ct": true,
+        "pet": true,
+        "rna": false
+      }
+    },
+    {
+      "patients": 130,
+      "present": {
+        "clinical": true,
+        "ct": true,
+        "pet": true,
+        "rna": true
+      }
+    }
+  ],
+  "clinical_eligibility": "NOT_ESTABLISHED",
+  "date_field_availability_discordance": {
+    "clinical_PET_date_missing_but_PT_in_inventory": 39,
+    "date_alignment": "NOT_ASSESSED_SOURCE_CALENDARS_NOT_ASSUMED_COMPARABLE"
+  },
+  "denominator": "union_of_exact_patient_identifiers_across_locked_sources",
+  "endpoint_feasibility": {
+    "analysis_populations": {
+      "postoperative_day_30": {
+        "eligible_patients": null,
+        "status": "NOT_IDENTIFIABLE_FROM_LOCKED_SOURCES",
+        "survival_events": null
+      },
+      "pretreatment": {
+        "eligible_patients": null,
+        "status": "NOT_IDENTIFIABLE_FROM_LOCKED_SOURCES",
+        "survival_events": null
+      }
+    },
+    "clinical_date_semantics": {
+      "established": "clinical_dates_shifted_with_relative_chronological_order_preserved",
+      "locator": "Methods/Subject Demographics and Clinical Data",
+      "not_established": "clinical_to_NBIA_patient_axis_alignment_or_clinical_release_times",
+      "reference": "https://doi.org/10.1038/sdata.2018.202"
+    },
+    "evidence_type": "source_endpoint_feasibility_not_clinical_outcome_adjudication",
+    "interpretation": "Unknown eligible/event counts are not zero. Recorded deaths are not validated events. No date imputation, origin selection, cutoff selection or outcome creation is performed. A CT- or surgery-indexed research association would change the estimand and still requires justified endpoint semantics.",
+    "privacy": "aggregate_only_no_source_identifiers_patient_dates_or_raw_tokens",
+    "scope_decision": "SOURCE_COHORT_AND_ENDPOINT_FEASIBILITY_ONLY",
+    "source_populations": {
+      "all_four_source_types": {
+        "arithmetic_diagnostics": {
+          "alive_last_contact_CT_pairs": 85,
+          "alive_last_contact_on_or_before_CT": 0,
+          "alive_with_death_date": 0,
+          "alive_with_numeric_time_to_death": 0,
+          "candidate_alive_contact_on_or_before_surgery": 0,
+          "candidate_death_on_or_before_surgery": 1,
+          "candidate_surgery_recorded_alive": 85,
+          "candidate_surgery_recorded_deaths": 45,
+          "candidate_surgery_records": 130,
+          "dead_without_parseable_death_date": 0,
+          "death_CT_pairs": 45,
+          "death_on_or_before_CT": 0,
+          "last_alive_after_death": 0,
+          "time_to_death_CT_comparison_pairs": 45,
+          "time_to_death_disagrees_with_death_minus_candidate_surgery": 15,
+          "time_to_death_matches_death_minus_CT": 0,
+          "time_to_death_matches_death_minus_candidate_surgery": 30,
+          "time_to_death_surgery_comparison_pairs": 45
+        },
+        "clinical_rows": 130,
+        "field_states": {
+          "CT Date": {
+            "invalid": 0,
+            "parsed": 130,
+            "source_missing_token": 0
+          },
+          "Date of Death": {
+            "invalid": 0,
+            "parsed": 45,
+            "source_missing_token": 85
+          },
+          "Date of Last Known Alive": {
+            "invalid": 0,
+            "parsed": 130,
+            "source_missing_token": 0
+          },
+          "Days between CT and surgery": {
+            "invalid": 0,
+            "negative": 0,
+            "parsed": 130,
+            "source_missing_token": 0,
+            "zero": 0
+          },
+          "PET Date": {
+            "invalid": 0,
+            "parsed": 130,
+            "source_missing_token": 0
+          },
+          "Time to Death (days)": {
+            "invalid": 0,
+            "negative": 0,
+            "parsed": 45,
+            "source_missing_token": 85,
+            "zero": 0
+          }
+        },
+        "recorded_alive": 85,
+        "recorded_dead": 45,
+        "unrecognized_status": 0
+      },
+      "clinical_release": {
+        "arithmetic_diagnostics": {
+          "alive_last_contact_CT_pairs": 148,
+          "alive_last_contact_on_or_before_CT": 0,
+          "alive_with_death_date": 0,
+          "alive_with_numeric_time_to_death": 0,
+          "candidate_alive_contact_on_or_before_surgery": 0,
+          "candidate_death_on_or_before_surgery": 1,
+          "candidate_surgery_recorded_alive": 148,
+          "candidate_surgery_recorded_deaths": 63,
+          "candidate_surgery_records": 211,
+          "dead_without_parseable_death_date": 0,
+          "death_CT_pairs": 63,
+          "death_on_or_before_CT": 0,
+          "last_alive_after_death": 0,
+          "time_to_death_CT_comparison_pairs": 63,
+          "time_to_death_disagrees_with_death_minus_candidate_surgery": 16,
+          "time_to_death_matches_death_minus_CT": 0,
+          "time_to_death_matches_death_minus_candidate_surgery": 47,
+          "time_to_death_surgery_comparison_pairs": 63
+        },
+        "clinical_rows": 211,
+        "field_states": {
+          "CT Date": {
+            "invalid": 0,
+            "parsed": 211,
+            "source_missing_token": 0
+          },
+          "Date of Death": {
+            "invalid": 0,
+            "parsed": 63,
+            "source_missing_token": 148
+          },
+          "Date of Last Known Alive": {
+            "invalid": 0,
+            "parsed": 211,
+            "source_missing_token": 0
+          },
+          "Days between CT and surgery": {
+            "invalid": 0,
+            "negative": 0,
+            "parsed": 211,
+            "source_missing_token": 0,
+            "zero": 0
+          },
+          "PET Date": {
+            "invalid": 0,
+            "parsed": 162,
+            "source_missing_token": 49
+          },
+          "Time to Death (days)": {
+            "invalid": 0,
+            "negative": 0,
+            "parsed": 63,
+            "source_missing_token": 148,
+            "zero": 0
+          }
+        },
+        "recorded_alive": 148,
+        "recorded_dead": 63,
+        "unrecognized_status": 0
+      }
+    },
+    "surgery_diagnostic_definition": "candidate_ordinal = parsed_CT_Date + nonnegative_integer_gap",
+    "surgery_diagnostic_limit": "Arithmetic hypothesis check only: neither origin of Time to Death nor patient-level first-treatment surgery is adjudicated. Agreement is not clinical validation; disagreement identifies a query, not which source field is wrong.",
+    "unresolved_required_facts": {
+      "OS_cutoff": "no_reviewed_administrative_cutoff_policy_required_by_existing_protocol",
+      "calendar_alignment": "clinical_relative_order_does_not_verify_cross_source_axes",
+      "diagnosis_and_baseline_access": "no_patient_level_result_release_chronology",
+      "first_treatment_resection": "CT_gap_does_not_adjudicate_first_treatment_resection",
+      "molecular_access": "no_patient_level_clinical_assay_release_by_surgery_plus_30_days",
+      "pretreatment_assessment": "no_documented_earliest_qualifying_assessment_or_t0",
+      "selected_images": "no_adjudicated_series_acquisition_access_and_pair_components",
+      "survival_origin": "no_source_defined_origin_adjudication_in_locked_bundle",
+      "untreated_status": "no_affirmative_untreated_at_t0_or_first_treatment_chronology"
+    }
+  },
+  "evidence_type": "observed_public_source_inventory",
+  "imaging_reconciliation": {
+    "acquisition_dates": "NOT_ESTABLISHED_BY_SERIESDATE_0008_0021",
+    "canonical_series": 1351,
+    "clinical_result_availability": "NOT_ESTABLISHED_BY_DICOM_OR_REPOSITORY_DATES",
+    "diagnostic_CT_selection": "NOT_ADJUDICATED_NO_SERIES_SELECTED",
+    "exact_duplicate_rows_collapsed": 0,
+    "modality_series_counts": {
+      "CT": 727,
+      "PT": 480,
+      "SEG": 144
+    },
+    "patients_with_PT_and_CT_in_same_study": 199,
+    "patients_with_multiple_candidate_series": {
+      "CT": 201,
+      "PT": 148
+    },
+    "pixel_duplicates": "NOT_ASSESSED_METADATA_ONLY",
+    "series_missing_series_date": 25,
+    "studies": 395
+  },
+  "implementation_sha256": "6b5f2f8c7ce44feecb4c8227548cf3ccfa25d48958cc39c4209346d6053b2cc8",
+  "label_audit_scope": "release_status_labels_not_adjudicated_OS_events_or_horizon_events",
+  "linkage": {
+    "imaging_without_clinical": 0,
+    "rna_samples": 130,
+    "rna_unique_patients": 130,
+    "rna_without_clinical": 0,
+    "rule": "exact_identifier_equality_no_normalization_or_fuzzy_matching",
+    "unresolved_cross_source_aliases": "NOT_ASSESSED_NO_IDENTITY_REPAIR_PERFORMED"
+  },
+  "missingness": {
+    "clinical": {
+      "absent_from_observed_inventory": 0,
+      "clinical_reason": "unknown",
+      "source_nonascertainment_is_not": "not_acquired"
+    },
+    "ct": {
+      "absent_from_observed_inventory": 0,
+      "clinical_reason": "unknown",
+      "source_nonascertainment_is_not": "not_acquired"
+    },
+    "pet": {
+      "absent_from_observed_inventory": 10,
+      "clinical_reason": "unknown",
+      "source_nonascertainment_is_not": "not_acquired"
+    },
+    "rna": {
+      "absent_from_observed_inventory": 81,
+      "clinical_reason": "unknown",
+      "source_nonascertainment_is_not": "not_acquired"
+    }
+  },
+  "modality_counts": {
+    "clinical": 211,
+    "ct": 211,
+    "pet": 201,
+    "rna": 130
+  },
+  "modality_definitions": {
+    "clinical": "one_unique_row_in_reviewed_TCIA_clinical_CSV",
+    "ct": "at_least_one_nonempty_NBIA_CT_series_metadata_record",
+    "pet": "at_least_one_nonempty_NBIA_PT_series_metadata_record",
+    "rna": "GSE103584_sample_title_and_expression_column_with_observed_numeric_cells"
+  },
+  "model_evaluation": "NOT_RUN",
+  "patients": 211,
+  "precision_status": "NOT_ESTABLISHED",
+  "privacy_scope": "aggregate_only_no_patient_identifiers_UIDs_patient_dates_or_free_text",
+  "rna_matrix_integrity": {
+    "clinical_result_availability": "NOT_ESTABLISHED",
+    "columns_with_no_observed_numeric_cells": 0,
+    "gene_rows": 22126,
+    "missing_expression_cells": 1192713,
+    "patient_columns": 130,
+    "preprocessing_and_biological_quality": "NOT_VALIDATED_BY_MATRIX_PARSE",
+    "total_expression_cells": 2876380
+  },
+  "schema_version": "1.2",
+  "selection": {
+    "age_at_histological_diagnosis": {
+      "complete": {
+        "mean": 68.50769230769231,
+        "missing_n": 0,
+        "observed_n": 130,
+        "sd": 9.083801200250742
+      },
+      "incomplete": {
+        "mean": 67.08641975308642,
+        "missing_n": 0,
+        "observed_n": 81,
+        "sd": 11.33489912930878
+      },
+      "smd": 0.13837444498306514
+    },
+    "categorical": {
+      "Gender": {
+        "levels": [
+          {
+            "complete_n": 34,
+            "incomplete_n": 42,
+            "level": "Female",
+            "proportion_difference": -0.25698005698005694,
+            "proportions": [
+              0.26153846153846155,
+              0.5185185185185185
+            ],
+            "smd": -0.5461525523013575
+          },
+          {
+            "complete_n": 96,
+            "incomplete_n": 39,
+            "level": "Male",
+            "proportion_difference": 0.25698005698005705,
+            "proportions": [
+              0.7384615384615385,
+              0.48148148148148145
+            ],
+            "smd": 0.5461525523013577
+          }
+        ],
+        "missing_or_unrecognized": [
+          0,
+          0
+        ],
+        "observed_denominators": [
+          130,
+          81
+        ]
+      },
+      "Patient affiliation": {
+        "levels": [
+          {
+            "complete_n": 57,
+            "incomplete_n": 61,
+            "level": "Stanford",
+            "proportion_difference": -0.314624881291548,
+            "proportions": [
+              0.43846153846153846,
+              0.7530864197530864
+            ],
+            "smd": -0.6768394088238784
+          },
+          {
+            "complete_n": 73,
+            "incomplete_n": 20,
+            "level": "VA",
+            "proportion_difference": 0.314624881291548,
+            "proportions": [
+              0.5615384615384615,
+              0.24691358024691357
+            ],
+            "smd": 0.6768394088238784
+          }
+        ],
+        "missing_or_unrecognized": [
+          0,
+          0
+        ],
+        "observed_denominators": [
+          130,
+          81
+        ]
+      },
+      "Smoking status": {
+        "levels": [
+          {
+            "complete_n": 25,
+            "incomplete_n": 8,
+            "level": "Current",
+            "proportion_difference": 0.09354226020892689,
+            "proportions": [
+              0.19230769230769232,
+              0.09876543209876543
+            ],
+            "smd": 0.2676263625802359
+          },
+          {
+            "complete_n": 85,
+            "incomplete_n": 45,
+            "level": "Former",
+            "proportion_difference": 0.09829059829059827,
+            "proportions": [
+              0.6538461538461539,
+              0.5555555555555556
+            ],
+            "smd": 0.202061692473647
+          },
+          {
+            "complete_n": 20,
+            "incomplete_n": 28,
+            "level": "Nonsmoker",
+            "proportion_difference": -0.19183285849952514,
+            "proportions": [
+              0.15384615384615385,
+              0.345679012345679
+            ],
+            "smd": -0.45445613289859194
+          }
+        ],
+        "missing_or_unrecognized": [
+          0,
+          0
+        ],
+        "observed_denominators": [
+          130,
+          81
+        ]
+      }
+    },
+    "complete_n": 130,
+    "direction": "complete_minus_incomplete",
+    "incomplete_n": 81,
+    "inference": "DESCRIPTIVE_ONLY_NO_CAUSAL_OR_MISSINGNESS_MECHANISM_CLAIM",
+    "limitations": [
+      "Source completeness does not establish clinical eligibility.",
+      "Observed differences cannot measure unobserved selection or remove bias.",
+      "Source age and recorded gender are not adjudicated index age or gender identity.",
+      "No p-value, imputation, balancing or outcome-guided selection is performed."
+    ],
+    "scope": "source_complete_vs_incomplete_within_clinical_records",
+    "smd_definition": "mean_or_proportion_difference_over_sqrt_mean_of_group_variances",
+    "source_cohort_strata": {
+      "AMC": {
+        "age_at_histological_diagnosis": {
+          "complete": {
+            "mean": null,
+            "missing_n": 0,
+            "observed_n": 0,
+            "sd": null
+          },
+          "incomplete": {
+            "mean": 65.77551020408163,
+            "missing_n": 0,
+            "observed_n": 49,
+            "sd": 12.52375294211372
+          },
+          "smd": null
+        },
+        "categorical": {
+          "Gender": {
+            "levels": [
+              {
+                "complete_n": 0,
+                "incomplete_n": 33,
+                "level": "Female",
+                "proportion_difference": null,
+                "proportions": [
+                  null,
+                  0.673469387755102
+                ],
+                "smd": null
+              },
+              {
+                "complete_n": 0,
+                "incomplete_n": 16,
+                "level": "Male",
+                "proportion_difference": null,
+                "proportions": [
+                  null,
+                  0.32653061224489793
+                ],
+                "smd": null
+              }
+            ],
+            "missing_or_unrecognized": [
+              0,
+              0
+            ],
+            "observed_denominators": [
+              0,
+              49
+            ]
+          },
+          "Patient affiliation": {
+            "levels": [
+              {
+                "complete_n": 0,
+                "incomplete_n": 49,
+                "level": "Stanford",
+                "proportion_difference": null,
+                "proportions": [
+                  null,
+                  1.0
+                ],
+                "smd": null
+              },
+              {
+                "complete_n": 0,
+                "incomplete_n": 0,
+                "level": "VA",
+                "proportion_difference": null,
+                "proportions": [
+                  null,
+                  0.0
+                ],
+                "smd": null
+              }
+            ],
+            "missing_or_unrecognized": [
+              0,
+              0
+            ],
+            "observed_denominators": [
+              0,
+              49
+            ]
+          },
+          "Smoking status": {
+            "levels": [
+              {
+                "complete_n": 0,
+                "incomplete_n": 0,
+                "level": "Current",
+                "proportion_difference": null,
+                "proportions": [
+                  null,
+                  0.0
+                ],
+                "smd": null
+              },
+              {
+                "complete_n": 0,
+                "incomplete_n": 26,
+                "level": "Former",
+                "proportion_difference": null,
+                "proportions": [
+                  null,
+                  0.5306122448979592
+                ],
+                "smd": null
+              },
+              {
+                "complete_n": 0,
+                "incomplete_n": 23,
+                "level": "Nonsmoker",
+                "proportion_difference": null,
+                "proportions": [
+                  null,
+                  0.46938775510204084
+                ],
+                "smd": null
+              }
+            ],
+            "missing_or_unrecognized": [
+              0,
+              0
+            ],
+            "observed_denominators": [
+              0,
+              49
+            ]
+          }
+        },
+        "comparison_support": "NO_WITHIN_STRATUM_COMPARISON",
+        "complete_n": 0,
+        "direction": "complete_minus_incomplete",
+        "incomplete_n": 49,
+        "inference": "DESCRIPTIVE_ONLY_NO_CAUSAL_OR_MISSINGNESS_MECHANISM_CLAIM",
+        "limitations": [
+          "Source completeness does not establish clinical eligibility.",
+          "Observed differences cannot measure unobserved selection or remove bias.",
+          "Source age and recorded gender are not adjudicated index age or gender identity.",
+          "No p-value, imputation, balancing or outcome-guided selection is performed."
+        ],
+        "scope": "source_complete_vs_incomplete_within_clinical_records",
+        "smd_definition": "mean_or_proportion_difference_over_sqrt_mean_of_group_variances"
+      },
+      "R01": {
+        "age_at_histological_diagnosis": {
+          "complete": {
+            "mean": 68.50769230769231,
+            "missing_n": 0,
+            "observed_n": 130,
+            "sd": 9.083801200250742
+          },
+          "incomplete": {
+            "mean": 69.09375,
+            "missing_n": 0,
+            "observed_n": 32,
+            "sd": 9.045973529519872
+          },
+          "smd": -0.06465126294819895
+        },
+        "categorical": {
+          "Gender": {
+            "levels": [
+              {
+                "complete_n": 34,
+                "incomplete_n": 9,
+                "level": "Female",
+                "proportion_difference": -0.019711538461538447,
+                "proportions": [
+                  0.26153846153846155,
+                  0.28125
+                ],
+                "smd": -0.04433846047417865
+              },
+              {
+                "complete_n": 96,
+                "incomplete_n": 23,
+                "level": "Male",
+                "proportion_difference": 0.019711538461538503,
+                "proportions": [
+                  0.7384615384615385,
+                  0.71875
+                ],
+                "smd": 0.044338460474178776
+              }
+            ],
+            "missing_or_unrecognized": [
+              0,
+              0
+            ],
+            "observed_denominators": [
+              130,
+              32
+            ]
+          },
+          "Patient affiliation": {
+            "levels": [
+              {
+                "complete_n": 57,
+                "incomplete_n": 12,
+                "level": "Stanford",
+                "proportion_difference": 0.06346153846153846,
+                "proportions": [
+                  0.43846153846153846,
+                  0.375
+                ],
+                "smd": 0.1294610499193562
+              },
+              {
+                "complete_n": 73,
+                "incomplete_n": 20,
+                "level": "VA",
+                "proportion_difference": -0.06346153846153846,
+                "proportions": [
+                  0.5615384615384615,
+                  0.625
+                ],
+                "smd": -0.1294610499193562
+              }
+            ],
+            "missing_or_unrecognized": [
+              0,
+              0
+            ],
+            "observed_denominators": [
+              130,
+              32
+            ]
+          },
+          "Smoking status": {
+            "levels": [
+              {
+                "complete_n": 25,
+                "incomplete_n": 8,
+                "level": "Current",
+                "proportion_difference": -0.05769230769230768,
+                "proportions": [
+                  0.19230769230769232,
+                  0.25
+                ],
+                "smd": -0.1393466028583235
+              },
+              {
+                "complete_n": 85,
+                "incomplete_n": 19,
+                "level": "Former",
+                "proportion_difference": 0.060096153846153855,
+                "proportions": [
+                  0.6538461538461539,
+                  0.59375
+                ],
+                "smd": 0.12429430265922303
+              },
+              {
+                "complete_n": 20,
+                "incomplete_n": 5,
+                "level": "Nonsmoker",
+                "proportion_difference": -0.0024038461538461453,
+                "proportions": [
+                  0.15384615384615385,
+                  0.15625
+                ],
+                "smd": -0.006641403588470386
+              }
+            ],
+            "missing_or_unrecognized": [
+              0,
+              0
+            ],
+            "observed_denominators": [
+              130,
+              32
+            ]
+          }
+        },
+        "comparison_support": "BOTH_GROUPS_OBSERVED",
+        "complete_n": 130,
+        "direction": "complete_minus_incomplete",
+        "incomplete_n": 32,
+        "inference": "DESCRIPTIVE_ONLY_NO_CAUSAL_OR_MISSINGNESS_MECHANISM_CLAIM",
+        "limitations": [
+          "Source completeness does not establish clinical eligibility.",
+          "Observed differences cannot measure unobserved selection or remove bias.",
+          "Source age and recorded gender are not adjudicated index age or gender identity.",
+          "No p-value, imputation, balancing or outcome-guided selection is performed."
+        ],
+        "scope": "source_complete_vs_incomplete_within_clinical_records",
+        "smd_definition": "mean_or_proportion_difference_over_sqrt_mean_of_group_variances"
+      }
+    },
+    "stratification_scope": "source_R01_AMC_identifier_prefixes_only; descriptive_not_adjustment_or_causal_identification"
+  },
+  "source_field_token_scope": "recorded_field_states_only_not_patient_modality_reasons; death_date_NA_in_living_patients_is_not_a_missing_OS_endpoint",
+  "source_field_tokens": {
+    "ALK translocation status": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 157,
+      "source_NA": 0,
+      "source_not_collected": 15,
+      "source_unknown": 39
+    },
+    "CT Date": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 211,
+      "source_NA": 0,
+      "source_not_collected": 0,
+      "source_unknown": 0
+    },
+    "Date of Death": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 63,
+      "source_NA": 148,
+      "source_not_collected": 0,
+      "source_unknown": 0
+    },
+    "Date of Last Known Alive": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 211,
+      "source_NA": 0,
+      "source_not_collected": 0,
+      "source_unknown": 0
+    },
+    "EGFR mutation status": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 172,
+      "source_NA": 0,
+      "source_not_collected": 5,
+      "source_unknown": 34
+    },
+    "KRAS mutation status": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 171,
+      "source_NA": 0,
+      "source_not_collected": 6,
+      "source_unknown": 34
+    },
+    "PET Date": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 162,
+      "source_NA": 0,
+      "source_not_collected": 49,
+      "source_unknown": 0
+    },
+    "Pathological M stage": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 162,
+      "source_NA": 0,
+      "source_not_collected": 49,
+      "source_unknown": 0
+    },
+    "Pathological N stage": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 162,
+      "source_NA": 0,
+      "source_not_collected": 49,
+      "source_unknown": 0
+    },
+    "Pathological T stage": {
+      "blank": 0,
+      "other_nonmissing_or_unreviewed": 162,
+      "source_NA": 0,
+      "source_not_collected": 49,
+      "source_unknown": 0
+    }
+  },
+  "source_population_label_audit": {
+    "all_four": {
+      "clinical_rows": 130,
+      "partitions": {
+        "test": {
+          "clinical_rows": 22,
+          "patients": 22,
+          "recorded_alive": 16,
+          "recorded_dead": 6,
+          "unrecognized_status": 0
+        },
+        "train": {
+          "clinical_rows": 87,
+          "patients": 87,
+          "recorded_alive": 55,
+          "recorded_dead": 32,
+          "unrecognized_status": 0
+        },
+        "validation": {
+          "clinical_rows": 21,
+          "patients": 21,
+          "recorded_alive": 14,
+          "recorded_dead": 7,
+          "unrecognized_status": 0
+        }
+      },
+      "patients": 130,
+      "recorded_alive": 85,
+      "recorded_dead": 45,
+      "unrecognized_status": 0
+    },
+    "ct_clinical": {
+      "clinical_rows": 211,
+      "partitions": {
+        "test": {
+          "clinical_rows": 34,
+          "patients": 34,
+          "recorded_alive": 26,
+          "recorded_dead": 8,
+          "unrecognized_status": 0
+        },
+        "train": {
+          "clinical_rows": 145,
+          "patients": 145,
+          "recorded_alive": 100,
+          "recorded_dead": 45,
+          "unrecognized_status": 0
+        },
+        "validation": {
+          "clinical_rows": 32,
+          "patients": 32,
+          "recorded_alive": 22,
+          "recorded_dead": 10,
+          "unrecognized_status": 0
+        }
+      },
+      "patients": 211,
+      "recorded_alive": 148,
+      "recorded_dead": 63,
+      "unrecognized_status": 0
+    },
+    "ct_pet_clinical": {
+      "clinical_rows": 201,
+      "partitions": {
+        "test": {
+          "clinical_rows": 34,
+          "patients": 34,
+          "recorded_alive": 26,
+          "recorded_dead": 8,
+          "unrecognized_status": 0
+        },
+        "train": {
+          "clinical_rows": 138,
+          "patients": 138,
+          "recorded_alive": 93,
+          "recorded_dead": 45,
+          "unrecognized_status": 0
+        },
+        "validation": {
+          "clinical_rows": 29,
+          "patients": 29,
+          "recorded_alive": 19,
+          "recorded_dead": 10,
+          "unrecognized_status": 0
+        }
+      },
+      "patients": 201,
+      "recorded_alive": 138,
+      "recorded_dead": 63,
+      "unrecognized_status": 0
+    },
+    "imaging_rna": {
+      "clinical_rows": 130,
+      "partitions": {
+        "test": {
+          "clinical_rows": 22,
+          "patients": 22,
+          "recorded_alive": 16,
+          "recorded_dead": 6,
+          "unrecognized_status": 0
+        },
+        "train": {
+          "clinical_rows": 87,
+          "patients": 87,
+          "recorded_alive": 55,
+          "recorded_dead": 32,
+          "unrecognized_status": 0
+        },
+        "validation": {
+          "clinical_rows": 21,
+          "patients": 21,
+          "recorded_alive": 14,
+          "recorded_dead": 7,
+          "unrecognized_status": 0
+        }
+      },
+      "patients": 130,
+      "recorded_alive": 85,
+      "recorded_dead": 45,
+      "unrecognized_status": 0
+    },
+    "same_study_pet_ct_clinical": {
+      "clinical_rows": 199,
+      "partitions": {
+        "test": {
+          "clinical_rows": 34,
+          "patients": 34,
+          "recorded_alive": 26,
+          "recorded_dead": 8,
+          "unrecognized_status": 0
+        },
+        "train": {
+          "clinical_rows": 136,
+          "patients": 136,
+          "recorded_alive": 92,
+          "recorded_dead": 44,
+          "unrecognized_status": 0
+        },
+        "validation": {
+          "clinical_rows": 29,
+          "patients": 29,
+          "recorded_alive": 19,
+          "recorded_dead": 10,
+          "unrecognized_status": 0
+        }
+      },
+      "patients": 199,
+      "recorded_alive": 137,
+      "recorded_dead": 62,
+      "unrecognized_status": 0
+    },
+    "same_study_pet_ct_clinical_rna": {
+      "clinical_rows": 129,
+      "partitions": {
+        "test": {
+          "clinical_rows": 22,
+          "patients": 22,
+          "recorded_alive": 16,
+          "recorded_dead": 6,
+          "unrecognized_status": 0
+        },
+        "train": {
+          "clinical_rows": 86,
+          "patients": 86,
+          "recorded_alive": 55,
+          "recorded_dead": 31,
+          "unrecognized_status": 0
+        },
+        "validation": {
+          "clinical_rows": 21,
+          "patients": 21,
+          "recorded_alive": 14,
+          "recorded_dead": 7,
+          "unrecognized_status": 0
+        }
+      },
+      "patients": 129,
+      "recorded_alive": 85,
+      "recorded_dead": 44,
+      "unrecognized_status": 0
+    }
+  },
+  "source_receipts": [
+    {
+      "kind": "clinical",
+      "reference": "https://www.cancerimagingarchive.net/wp-content/uploads/NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv",
+      "retrieved_on": "2026-11-07",
+      "sha256": "0a1f7cdf02cef58450db17f116a3fb0ecfd4d737ca6843bb1939dbe421071476",
+      "size_bytes": 66643,
+      "version": "TCIA-v4-clinical-2018-05-22"
+    },
+    {
+      "kind": "imaging",
+      "reference": "https://services.cancerimagingarchive.net/nbia-api/services/v1/getSeries?Collection=NSCLC%20Radiogenomics&format=json",
+      "retrieved_on": "2026-11-07",
+      "sha256": "9474ad45b635bf202b1fd64a866eb2fb607b2b293d06d11edcea7f91c4cf10c3",
+      "size_bytes": 1146753,
+      "version": "NBIA-v1-getSeries-2026-11-07"
+    },
+    {
+      "kind": "rna_expression",
+      "reference": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103584/suppl/GSE103584_R01_NSCLC_RNAseq.txt.gz",
+      "retrieved_on": "2026-11-07",
+      "sha256": "b007ec6d52c563fb6b7470628801e36ee2db4cafc7cc1b7631cf6446333be0e1",
+      "size_bytes": 7117730,
+      "version": "GSE103584-processed-matrix-2026-11-07"
+    },
+    {
+      "kind": "rna_metadata",
+      "reference": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103584/soft/GSE103584_family.soft.gz",
+      "retrieved_on": "2026-11-07",
+      "sha256": "26e514f9f57e56909f906df304adfe189f6ec5165134746c1cfafca25c911924",
+      "size_bytes": 8881,
+      "version": "GSE103584-family-SOFT-2026-11-07"
+    }
+  ]
+}

@@ -5,3 +5,12 @@ include docs/evidence/README.md
 include docs/evidence/source_schema_audit.json
 include docs/evidence/temporal_validation.json
 recursive-include tests *.py
+recursive-include configs/cohort *.json
+recursive-include schemas *.json
+include docs/cohort_audit.md
+include docs/cohort_feasibility.md
+include docs/evidence/source_availability.json
+include docs/evidence/source_flow.md
+include docs/evidence/cohort_validation.json
+recursive-include tools *.py
+include docs/evidence/source_reproduction.json

@@ -1,0 +1,263 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:oncobio-agentfm:private-cohort-manifest:1.1",
+  "title": "Private patient-level NSCLC source inventory",
+  "description": "Local lineage only. Source presence does not establish clinical eligibility. Never commit an instance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "privacy",
+    "implementation_sha256",
+    "source_receipts",
+    "split_seed",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.1"
+    },
+    "privacy": {
+      "const": "PRIVATE_DO_NOT_COMMIT"
+    },
+    "implementation_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "split_seed": {
+      "const": "oncobio-agentfm-v1"
+    },
+    "source_receipts": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/$defs/receipt"
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/participant"
+      }
+    }
+  },
+  "$defs": {
+    "receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "version",
+        "retrieved_on",
+        "sha256",
+        "size_bytes"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "clinical",
+            "imaging",
+            "rna_metadata",
+            "rna_expression"
+          ]
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]{1,80}$"
+        },
+        "retrieved_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "size_bytes": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "source_sha256",
+        "locator"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "clinical",
+            "imaging",
+            "rna_metadata",
+            "rna_expression"
+          ]
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role",
+        "ref"
+      ],
+      "properties": {
+        "role": {
+          "enum": [
+            "clinical",
+            "CT",
+            "PT",
+            "SEG",
+            "rna_metadata",
+            "rna_expression"
+          ]
+        },
+        "ref": {
+          "$ref": "#/$defs/reference"
+        },
+        "study_uid": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "series_uid": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "acquired_on_source_axis": {
+          "const": null
+        },
+        "clinical_available_on": {
+          "const": null
+        },
+        "series_date_on_source_axis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "role": {
+                "enum": [
+                  "CT",
+                  "PT",
+                  "SEG"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "study_uid",
+              "series_uid",
+              "acquired_on_source_axis",
+              "clinical_available_on",
+              "series_date_on_source_axis"
+            ]
+          }
+        }
+      ]
+    },
+    "presence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ct",
+        "pet",
+        "clinical",
+        "rna"
+      ],
+      "properties": {
+        "ct": {
+          "type": "boolean"
+        },
+        "pet": {
+          "type": "boolean"
+        },
+        "clinical": {
+          "type": "boolean"
+        },
+        "rna": {
+          "type": "boolean"
+        }
+      }
+    },
+    "missingness": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ct": {
+          "const": "unknown"
+        },
+        "pet": {
+          "const": "unknown"
+        },
+        "clinical": {
+          "const": "unknown"
+        },
+        "rna": {
+          "const": "unknown"
+        }
+      }
+    },
+    "participant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "patient_id",
+        "partition",
+        "observed_presence",
+        "missingness",
+        "source_links",
+        "clinical_eligibility"
+      ],
+      "properties": {
+        "patient_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$"
+        },
+        "partition": {
+          "enum": [
+            "train",
+            "validation",
+            "test"
+          ]
+        },
+        "observed_presence": {
+          "$ref": "#/$defs/presence"
+        },
+        "missingness": {
+          "$ref": "#/$defs/missingness"
+        },
+        "source_links": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/link"
+          }
+        },
+        "clinical_eligibility": {
+          "const": "NOT_ADJUDICATED"
+        }
+      }
+    }
+  }
+}
