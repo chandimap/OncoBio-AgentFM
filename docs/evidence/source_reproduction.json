@@ -1,0 +1,2344 @@
+{
+  "aggregate_checks": 583,
+  "audited_implementation_sha256": "6b5f2f8c7ce44feecb4c8227548cf3ccfa25d48958cc39c4209346d6053b2cc8",
+  "checks": [
+    {
+      "field": "/patients",
+      "passed": true
+    },
+    {
+      "field": "/modality_counts/ct",
+      "passed": true
+    },
+    {
+      "field": "/modality_counts/pet",
+      "passed": true
+    },
+    {
+      "field": "/modality_counts/clinical",
+      "passed": true
+    },
+    {
+      "field": "/modality_counts/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/0/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/0/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/0/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/0/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/0/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/1/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/1/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/1/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/1/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/1/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/2/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/2/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/2/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/2/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/2/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/3/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/3/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/3/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/3/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/3/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/4/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/4/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/4/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/4/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/4/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/5/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/5/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/5/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/5/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/5/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/6/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/6/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/6/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/6/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/6/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/7/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/7/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/7/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/7/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/7/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/8/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/8/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/8/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/8/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/8/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/9/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/9/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/9/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/9/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/9/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/10/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/10/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/10/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/10/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/10/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/11/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/11/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/11/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/11/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/11/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/12/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/12/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/12/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/12/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/12/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/13/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/13/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/13/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/13/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/13/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/14/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/14/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/14/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/14/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/14/patients",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/15/present/ct",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/15/present/pet",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/15/present/clinical",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/15/present/rna",
+      "passed": true
+    },
+    {
+      "field": "/availability_patterns/15/patients",
+      "passed": true
+    },
+    {
+      "field": "/missingness/ct/absent_from_observed_inventory",
+      "passed": true
+    },
+    {
+      "field": "/missingness/pet/absent_from_observed_inventory",
+      "passed": true
+    },
+    {
+      "field": "/missingness/clinical/absent_from_observed_inventory",
+      "passed": true
+    },
+    {
+      "field": "/missingness/rna/absent_from_observed_inventory",
+      "passed": true
+    },
+    {
+      "field": "/linkage/imaging_without_clinical",
+      "passed": true
+    },
+    {
+      "field": "/linkage/rna_without_clinical",
+      "passed": true
+    },
+    {
+      "field": "/linkage/rna_samples",
+      "passed": true
+    },
+    {
+      "field": "/linkage/rna_unique_patients",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/canonical_series",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/studies",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/exact_duplicate_rows_collapsed",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/modality_series_counts/CT",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/modality_series_counts/PT",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/modality_series_counts/SEG",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/patients_with_multiple_candidate_series/CT",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/patients_with_multiple_candidate_series/PT",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/patients_with_PT_and_CT_in_same_study",
+      "passed": true
+    },
+    {
+      "field": "/imaging_reconciliation/series_missing_series_date",
+      "passed": true
+    },
+    {
+      "field": "/rna_matrix_integrity/gene_rows",
+      "passed": true
+    },
+    {
+      "field": "/rna_matrix_integrity/patient_columns",
+      "passed": true
+    },
+    {
+      "field": "/rna_matrix_integrity/missing_expression_cells",
+      "passed": true
+    },
+    {
+      "field": "/rna_matrix_integrity/total_expression_cells",
+      "passed": true
+    },
+    {
+      "field": "/rna_matrix_integrity/columns_with_no_observed_numeric_cells",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/CT Date/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/CT Date/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/CT Date/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/CT Date/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/CT Date/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/PET Date/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/PET Date/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/PET Date/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/PET Date/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/PET Date/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Death/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Death/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Death/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Death/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Death/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Last Known Alive/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Last Known Alive/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Last Known Alive/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Last Known Alive/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Date of Last Known Alive/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/EGFR mutation status/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/EGFR mutation status/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/EGFR mutation status/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/EGFR mutation status/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/EGFR mutation status/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/KRAS mutation status/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/KRAS mutation status/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/KRAS mutation status/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/KRAS mutation status/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/KRAS mutation status/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/ALK translocation status/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/ALK translocation status/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/ALK translocation status/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/ALK translocation status/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/ALK translocation status/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological T stage/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological T stage/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological T stage/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological T stage/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological T stage/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological N stage/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological N stage/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological N stage/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological N stage/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological N stage/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological M stage/blank",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological M stage/source_not_collected",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological M stage/source_unknown",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological M stage/source_NA",
+      "passed": true
+    },
+    {
+      "field": "/source_field_tokens/Pathological M stage/other_nonmissing_or_unreviewed",
+      "passed": true
+    },
+    {
+      "field": "/date_field_availability_discordance/clinical_PET_date_missing_but_PT_in_inventory",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/train/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/train/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/train/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/train/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/train/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/validation/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/validation/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/validation/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/validation/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/validation/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/test/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/test/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/test/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/test/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_clinical/partitions/test/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/train/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/train/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/train/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/train/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/train/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/validation/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/validation/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/validation/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/validation/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/validation/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/test/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/test/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/test/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/test/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/ct_pet_clinical/partitions/test/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/train/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/train/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/train/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/train/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/train/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/validation/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/validation/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/validation/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/validation/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/validation/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/test/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/test/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/test/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/test/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/imaging_rna/partitions/test/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/train/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/train/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/train/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/train/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/train/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/validation/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/validation/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/validation/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/validation/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/validation/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/test/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/test/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/test/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/test/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/all_four/partitions/test/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/train/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/train/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/train/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/train/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/train/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/validation/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/validation/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/validation/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/validation/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/validation/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/test/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/test/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/test/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/test/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical/partitions/test/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/train/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/train/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/train/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/train/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/train/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/validation/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/validation/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/validation/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/validation/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/validation/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/test/patients",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/test/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/test/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/test/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/source_population_label_audit/same_study_pet_ct_clinical_rna/partitions/test/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/selection/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/complete/observed_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/complete/missing_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/complete/mean",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/complete/sd",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/incomplete/observed_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/incomplete/missing_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/incomplete/mean",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/incomplete/sd",
+      "passed": true
+    },
+    {
+      "field": "/selection/age_at_histological_diagnosis/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Gender/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Patient affiliation/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/2/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/2/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/2/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/2/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/2/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/2/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/categorical/Smoking status/levels/2/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/complete/observed_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/complete/missing_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/complete/mean",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/complete/sd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/incomplete/observed_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/incomplete/missing_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/incomplete/mean",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/incomplete/sd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/age_at_histological_diagnosis/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Gender/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Patient affiliation/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/2/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/2/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/2/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/2/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/2/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/2/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/R01/categorical/Smoking status/levels/2/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/complete/observed_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/complete/missing_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/complete/mean",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/complete/sd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/incomplete/observed_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/incomplete/missing_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/incomplete/mean",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/incomplete/sd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/age_at_histological_diagnosis/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Gender/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Patient affiliation/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/observed_denominators/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/observed_denominators/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/missing_or_unrecognized/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/missing_or_unrecognized/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/0/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/0/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/0/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/0/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/0/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/0/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/0/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/1/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/1/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/1/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/1/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/1/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/1/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/1/smd",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/2/level",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/2/complete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/2/incomplete_n",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/2/proportions/0",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/2/proportions/1",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/2/proportion_difference",
+      "passed": true
+    },
+    {
+      "field": "/selection/source_cohort_strata/AMC/categorical/Smoking status/levels/2/smd",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/CT Date/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/CT Date/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/CT Date/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/PET Date/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/PET Date/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/PET Date/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Date of Death/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Date of Death/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Date of Death/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Date of Last Known Alive/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Date of Last Known Alive/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Date of Last Known Alive/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Days between CT and surgery/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Days between CT and surgery/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Days between CT and surgery/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Days between CT and surgery/negative",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Days between CT and surgery/zero",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Time to Death (days)/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Time to Death (days)/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Time to Death (days)/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Time to Death (days)/negative",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/field_states/Time to Death (days)/zero",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/alive_with_death_date",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/dead_without_parseable_death_date",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/last_alive_after_death",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/alive_with_numeric_time_to_death",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/death_CT_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/death_on_or_before_CT",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/alive_last_contact_CT_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/alive_last_contact_on_or_before_CT",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/time_to_death_CT_comparison_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/time_to_death_matches_death_minus_CT",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/candidate_surgery_records",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/candidate_surgery_recorded_deaths",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/candidate_death_on_or_before_surgery",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/candidate_surgery_recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/candidate_alive_contact_on_or_before_surgery",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/time_to_death_surgery_comparison_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/time_to_death_matches_death_minus_candidate_surgery",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/clinical_release/arithmetic_diagnostics/time_to_death_disagrees_with_death_minus_candidate_surgery",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/clinical_rows",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/recorded_dead",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/unrecognized_status",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/CT Date/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/CT Date/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/CT Date/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/PET Date/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/PET Date/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/PET Date/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Date of Death/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Date of Death/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Date of Death/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Date of Last Known Alive/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Date of Last Known Alive/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Date of Last Known Alive/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Days between CT and surgery/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Days between CT and surgery/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Days between CT and surgery/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Days between CT and surgery/negative",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Days between CT and surgery/zero",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Time to Death (days)/parsed",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Time to Death (days)/source_missing_token",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Time to Death (days)/invalid",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Time to Death (days)/negative",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/field_states/Time to Death (days)/zero",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/alive_with_death_date",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/dead_without_parseable_death_date",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/last_alive_after_death",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/alive_with_numeric_time_to_death",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/death_CT_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/death_on_or_before_CT",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/alive_last_contact_CT_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/alive_last_contact_on_or_before_CT",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/time_to_death_CT_comparison_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/time_to_death_matches_death_minus_CT",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/candidate_surgery_records",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/candidate_surgery_recorded_deaths",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/candidate_death_on_or_before_surgery",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/candidate_surgery_recorded_alive",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/candidate_alive_contact_on_or_before_surgery",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/time_to_death_surgery_comparison_pairs",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/time_to_death_matches_death_minus_candidate_surgery",
+      "passed": true
+    },
+    {
+      "field": "/endpoint_feasibility/source_populations/all_four_source_types/arithmetic_diagnostics/time_to_death_disagrees_with_death_minus_candidate_surgery",
+      "passed": true
+    }
+  ],
+  "interpretation_limits": [],
+  "method": "independent_stdlib_oracle_no_project_imports",
+  "oracle_sha256": "fa7ca233dfd171dbaf9c51e413063185f0910970852e3fa8fd2404905729291d",
+  "schema_version": "1.0",
+  "source_hash_checks": 4,
+  "status": "PASS"
+}
